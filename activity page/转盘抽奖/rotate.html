@@ -1,0 +1,100 @@
+<!Doctype>
+<html>
+<head>
+<style>
+.rotary {
+    position: relative;
+    width: 854px;
+    height: 504px;
+    margin: 0 auto;
+    background: #d71f2e url(images/bg1.png);
+}
+.rotaryArrow {
+    position: absolute;
+    left: 181px;
+    top: 104px;
+    width: 294px;
+    height: 294px;
+    cursor: pointer;
+    background-image: url(images/arrow.png);
+}
+.list {
+    position: absolute;
+    right: 48px;
+    top: 144px;
+    width: 120px;
+    height: 320px;
+    overflow: hidden;
+}
+.list h3 {
+    display: none;
+}
+.list ul {
+    list-style-type: none;
+}
+.list li {
+    height: 37px;
+    font: 14px/37px "Microsoft Yahei";
+    color: #ffea76;
+    text-indent: 25px;
+    background: url(images/user.png) 0 no-repeat;
+}
+.result {
+    display: none;
+    position: absolute;
+    left: 130px;
+    top: 190px;
+    width: 395px;
+    height: 118px;
+    background-color: rgba(0,0,0,0.75);
+    filter: alpha(opacity=90);
+}
+.result a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+    text-indent: -100px;
+    background-image: url(images/close.png);
+    overflow: hidden;
+}
+.result p {
+    padding: 45px 15px 0;
+    font: 16px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+}
+.result em {
+    color: #ffea76;
+    font-style: normal;
+}
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.rotate.min.js"></script>
+<script src="rotate.js"></script>
+
+
+</head>
+<body>
+ <div class="rotary">
+    <div class="rotaryArrow" id="rotaryArrow"></div>
+    <div class="list">
+        <h3>中奖名单</h3>
+        <ul>
+            <li>1558****980</li>
+            <li>1569****851</li>
+            <li>1515****206</li>
+            <li>1550****789</li>
+            <li>1370****627</li>
+        </ul>
+    </div>
+    <div class="result" id="result">
+        <p id="resultTxt"></p>
+        <a href="javascript:" id="resultBtn" title="关闭">关闭</a>
+    </div>
+</div>
+
+</body>
+
+</html>

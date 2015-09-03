@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href=img/icons/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/icons/57x57.png">
+    <link rel="apple-touch-startup-image" href="img/icons/splash-screen.png" />
+    
+
+
+    <script type="text/javascript">
+        (function (d) {
+            var longTapTimer,
+                ael = 'addEventListener',
+                TAP_DELAY = 500, // ms
+                element = null,
+                onLongTap = function () {
+                    alert('long tap regisered on ' + element);
+                },
+                startTimer = function (e) {
+                    console.log('start timer, e.type = %s', e.type);
+                    element = e.target;
+                    longTapTimer = setTimeout(onLongTap, TAP_DELAY);
+                },
+                stopTimer = function (e) {
+                    console.log('stop timer, e.type = %s', e.type);
+                    element = null;
+                    clearTimeout(longTapTimer);
+                };
+            d[ael]('touchstart', startTimer);
+            d[ael]('touchend', stopTimer);
+            d[ael]('touchmove', stopTimer);
+        })(document);
+    </script>
+</head>
+<body  onload="setTimeout(function() { if(Modernizr.touch && window.pageYOffset <= 1) window.scrollTo(0, 1) }, 100);">
+    <div>
+        <a href="#ololo">Ololo</a>
+        <br>
+        <a href="#meooow">Meooow</a>
+        <br>
+        <img height="200" src="http://octodex.github.com/images/octobiwan.jpg" alt="octobiwan">
+        <br>
+        <img height="200" src="http://octodex.github.com/images/stormtroopocat.jpg" alt="trooper">
+    </div>
+</body>
+</html>

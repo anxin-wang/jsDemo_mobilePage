@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            console.log('start loading');
+            window.onload = function () {
+                console.log('everything is loaded');
+            }
+        </script>
+        <style type="text/css">
+            img {
+                visibility: hidden;
+            }
+        </style>
+        <link href="https://a248.e.akamai.net/assets.github.com/assets/github-c948d46acf22c5703f5ff131483ea42369eb7890.css" media="screen" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <p id="counter">
+            0
+        </p>
+        <script>
+            console.log('before some content loaded');
+        </script>
+
+        <p>some content</p>
+
+        <script>
+            console.log('after some content loaded');
+        </script>
+        <p>some postload (ajax etc)</p>
+
+        <img src="http://gems.github.com/octocat.png" alt="github octocat">
+        <img src="http://octodex.github.com/images/Mardigrastocat.png" alt="github octocat">
+        <img src="http://octodex.github.com/images/kimonotocat.png" alt="github octocat">
+        <img src="http://octodex.github.com/images/Professortocat_v2.png" alt="github octocat">
+
+        <script>
+            (function (d) {
+                var counter = d.getElementById('counter'),
+                    imgs = d.getElementsByTagName('img'),
+                    styles = d.getElementsByTagName('link'),
+                    forEach = imgs.forEach = styles.forEach = Array.prototype.forEach,
+                    totalCount = imgs.length + styles.length,
+                    loadedCount = 0,
+                    reportProgress = function() {
+                        var loaded = counter.innerHTML = (++loadedCount) + '/' + totalCount;
+                        console.log('loaded: ' + loaded);
+                        console.log(this);
+                    };
+                imgs.forEach(function (img) {
+                    // if (img.complete) {
+                    //     reportProgress();
+                    // } else {
+                        img.addEventListener('load', reportProgress);
+                    // }
+                });
+                styles.forEach(function (style) {
+                    var img = new Image();
+                    img.onerror = reportProgress;
+                    img.src = style.href;
+                })
+            })(document);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        body {
+            margin: 0px;
+            font-size: 100%;
+            height: auto;
+            background-color: #fffde3;
+        }
+
+        .normal-font {
+            font-size: 1.2em;
+        }
+
+        .index-back {
+            position: relative;
+            height: auto;
+            z-index: 1;
+            top: 0;
+        }
+
+        .img-responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        .position_bm {
+            top: 70%;
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            z-index: 2;
+            height: 5%;
+        }
+
+        .div-content {
+            margin: 0 5%;
+            position: absolute;
+        }
+
+        .position_bm .div-content {
+            width: 20%;
+            margin: 0 40%;
+        }
+
+        .div-form {
+            top: 78%;
+            width: 100%;
+            margin: 0 auto;
+            position: absolute;
+            z-index: 2;
+            height: 22%;
+        }
+
+        .div-form form {
+            top: 5%;
+            position: absolute;
+            margin: 0 5%;
+            font-size: 0.7rem;
+            width: 90%;
+            -webkit-box-sizing: border-box;
+        }
+
+        .div-form form .label {
+            width: 24%;
+            display: inline-block;
+            text-align: right;
+        }
+
+        .div-form form input[type=text] {
+            width: 72%;
+        }
+
+        .message {
+            margin-left: 25%;
+            font-size: 0.7em;
+            margin-top: 5px;
+        }
+
+        .form-item {
+            margin-top: 2%;
+        }
+
+        .denglu {
+            top: 70%;
+            position: absolute;
+            width: 100%;
+            margin: 0 auto;
+            z-index: 2;
+            height: 15%;
+        }
+
+        .denglu .div-content {
+            width: 30%;
+            margin: 0 35%;
+        }
+
+        .shenqing {
+            top: 82%;
+            position: absolute;
+            width: 100%;
+            margin: 0 auto;
+            z-index: 2;
+            height: 15%;
+        }
+
+        .shenqing .div-content {
+            width: 50%;
+            margin: 0 0 0 55%;
+            text-indent: -9999px;
+        }
+
+        .div-form .phoneValidateCode input[type=text], .div-form .validateCode input[type=text] {
+            width: 32%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="index-back">
+    <img src="images/index-bg.png" class="img-responsive"/>
+
+    <div class="position_bm">
+        <div class="div-content">
+            <a href="#" class="abming" id="submit-btn"> <img src="images/huodongxize.png" class="img-responsive"> </a>
+        </div>
+    </div>
+    <div class="div-form">
+        <div class="div-content">
+            <img src="images/index-form-bg.png" class="img-responsive">
+
+            <form id="drawLotteryForm" method="post">
+                <div class="form-item">
+                    <label for="mobilePhone" class="label">手机号码</label>
+                    <input name="mobilePhone" id="mobilePhone" maxlength="11" type="text" class="texts">
+                </div>
+                <div class="message">
+                    <span class="reads">*</span>
+                    <span>请正确填写您在我行预留的手机号</span>
+                </div>
+                <div class="form-item phoneValidateCode">
+                    <label for="phoneValidateCode" class="label">手机验证码</label>
+                    <input name="phoneValidateCode" id="phoneValidateCode" maxlength="6" type="text" class="texts">
+
+                    <span class="tsFont"><input type="button" id="getpass" name="getpass" value="&nbsp;获取"
+                                                class="sends"></span>
+                    <span class="reads">*</span>
+                </div>
+                <div class="form-item validateCode">
+                    <label for="validateCode" class="label">验证码</label>
+                    <input type="hidden" id="remarkId" name="remarkId" value="${remarkId}">
+                    <input name="validateCode" id="validateCode" maxlength="4" type="text" class="texts">&nbsp;
+                    <img src="getCodeImage.htm?num=1&remarkId=${remarkId}" id="imageCode"
+                         style="width: 20%; height:21px;"/>
+                    <span class="reads">*</span>
+                </div>
+            </form>
+            <div class="denglu">
+                <div class="div-content">
+                    <a href="#" class="abming" id="submitBtn" onclick="submitForm()"> <img src="images/denglu.png"
+                                                                                           class="img-responsive"> </a>
+                </div>
+            </div>
+            <div class="shenqing">
+                <div class="div-content">
+                    <a href="#">立即申请</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

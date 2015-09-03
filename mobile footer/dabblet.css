@@ -1,0 +1,234 @@
+/**
+ * Mobile footer
+ * two option in one
+ */
+/* Main styles */
+html{
+	font-size: 62.5%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; /* 1.2em */
+	line-height: 1.3; /* 15px */
+
+	min-width: 240px; /* don't go below 240px */
+	width: 100%;
+	/* max-width: 320px; /* don't go above 320px - make it scale */
+	margin: 0 auto;   /* and if it doesn't scale (hello android!) place body in the center */
+}
+
+
+/* All images on mobile devices should fit on screen
+	no matter how wide they are.
+	But older phones have problems with max-width */
+img {
+	width: 100%;
+}
+
+.js img {
+	max-width: 100%;
+}
+
+#wrapper {
+	background-color: #fff;
+}
+
+#content {
+	padding: 10px 0;
+}
+a {
+	color: #437CC4;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	/* no styles here? */
+}
+
+h1 {
+	font-size: 16px;   /* 1.33em */
+	line-height: 1.15; /* 18px */
+	margin: 11px 0 11px;
+}
+
+h2 {
+	font-size: 15px;   /* 1.25em */
+	line-height: 1.2;  /* 18px */
+	margin-bottom: 13px;
+}
+
+h3 {
+	font-size: 14px;    /* 1.16em */
+	line-height: 1.25;  /* 17px */	
+	margin-bottom: 13px;
+}
+
+h4 {
+	font-size: 13px;    /* 1.083em */
+	line-height: 1.25;  /* 16px */
+	margin-bottom: 13px;
+}
+
+h5, h6, p { margin-bottom: 13px }
+
+
+/* default form fields styles */
+input.text{
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	min-height: 26px;
+	line-height: 26px;
+	display: block;
+}
+select{
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	width: 100%;
+	line-height: 26px;
+	min-height: 26px;
+}
+
+
+/* Buttons */
+.actionButton,
+.button,
+.button2,
+.submit,
+.reset{
+	display: inline-block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	padding: 0 9px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 26px;
+	cursor: pointer;
+	width: auto;
+	min-height: 26px;
+	min-width: 10px;
+}
+
+.button,
+.submit{
+	text-shadow: 1px 1px rgba(0,0,0,.25);
+	color: #fff;
+	background: #6c95c0;
+	border: 1px solid #424242;
+	border-top: 3px solid #97bdde;
+	line-height: 25px;
+	-webkit-box-shadow: 0 -1px #424242;
+	-moz-box-shadow: 0 -1px #424242;
+	-ms-box-shadow: 0 -1px #424242;
+	-o-box-shadow: 0 -1px #424242;
+	box-shadow: 0 -1px #424242;
+}	
+.button2 {
+	text-shadow: 1px 1px rgba(0,0,0,.25);
+	color: #fff;
+	line-height: 28px;
+	border: 1px solid #424242;
+	background: #6c95c0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#97bdde), color-stop(.1, #97bdde), color-stop(.1, #6c95c0), to(#6c95c0));
+	background-image: -webkit-linear-gradient(#97bdde 0, #97bdde 3px, #6c95c0 3px, #6c95c0 100%);
+	background-image: -moz-linear-gradient(#97bdde 0, #97bdde 3px, #6c95c0 3px, #6c95c0 100%);
+	background-image: -ms-linear-gradient(#97bdde 0, #97bdde 3px, #6c95c0 3px, #6c95c0 100%);
+	background-image: -o-linear-gradient(#97bdde 0, #97bdde 3px, #6c95c0 3px, #6c95c0 100%);
+	background-image: linear-gradient(#97bdde 0, #97bdde 3px, #6c95c0 3px, #6c95c0 100%);
+}
+.actionButton,
+.reset {
+	padding: 1px 9px 0;
+	border: 1px solid #424242;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	color: #424242;
+	background: #f0f0f0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e1e1e1));
+	background-image: -webkit-linear-gradient(#fff,#e1e1e1);
+	background-image: -moz-linear-gradient(#fff,#e1e1e1);
+	background-image: -ms-linear-gradient(#fff,#e1e1e1);
+	background-image: -o-linear-gradient(#fff,#e1e1e1);
+	background-image: linear-gradient(#fff,#e1e1e1);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+.button.arrow,
+input.arrow{
+	background-image:url(../img/button-arrows.png);
+	background-position: 90% 4px;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.actionButton.arrow{
+	background: #f0f0f0;
+	background-image: url(../img/button-arrows.png), -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e1e1e1));
+	background-image: url(../img/button-arrows.png), -webkit-linear-gradient(#fff,#e1e1e1);
+	background-image: url(../img/button-arrows.png), -moz-linear-gradient(#fff,#e1e1e1);
+	background-image: url(../img/button-arrows.png), -ms-linear-gradient(#fff,#e1e1e1);
+	background-image: url(../img/button-arrows.png), -o-linear-gradient(#fff,#e1e1e1);
+	background-image: url(../img/button-arrows.png), linear-gradient(#fff,#e1e1e1);
+	background-position: 90% -15px, top left;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.actionButton:hover ,
+.button:hover {
+	text-decoration: none;
+}
+
+
+
+/* Divider for mobile */
+.divider {
+	clear: both;
+	overflow: hidden;
+}
+.divider .separator {
+	height: 1px;
+	width: 100%;
+	font-size: 1px;
+	line-height: 1px;
+	margin: 4px 0 8px;
+	border-bottom: 1px dotted #cdcdcd;
+}
+.divider .floatBreaker {}
+
+/* Footer for mobile */
+
+#footer {
+	border: 1px solid red; /* debug */
+	text-align: center;
+	padding-bottom: 2em;
+}
+#footer a{
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid #cdcdcd;
+}
+#footer .footerLink:last-child a {
+	border-right: none;
+}
+#footer .separator {
+	border-bottom-style: solid;
+}
+#footer .footerLink,
+#footer .footerLink > .inner {
+	display: inline;
+}
+#footer .divider + .footerLink a{
+	display: block;
+	text-align: left;
+	margin: 0 10px;
+	padding: 0;
+}
