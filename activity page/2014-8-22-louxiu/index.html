@@ -1,0 +1,243 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=1.5;user-scalable=no;" />
+		<title>楼下100</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: #43cacd;
+				font-family: "微软雅黑", "黑体", sans-serif;
+			}
+			.img-responsive {
+				width: 100%;
+				height: auto;
+			}
+			.abming {
+				display: block;
+				height: auto;
+				width: auto;
+			}
+			.div-brand {
+				position: absolute;
+				top: 15.5%;
+				width: 100%;
+				height: 6%;
+				z-index: 2;
+				color: #fff;
+				text-shadow: 2px 2px 0 #FFB109;
+			}
+			.div-brand .div-content span {
+				font-size: 90%;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				vertical-align: 10px;
+				padding-left: 3%;
+			}
+			.div-mobile {
+				position: absolute;
+				top: 31%;
+				width: 100%;
+				height: 6%;
+				z-index: 2;
+			}
+			.position_bm {
+				top: 35%;
+				width: 100%;
+				position: absolute;
+				z-index: 2;
+				height: 9%;
+			}
+			.div-content {
+				font-size: 14px;
+				padding: 0 20% 0 20%;
+			}
+			.cake-list {
+				background: url('image/cake-bg.png') repeat-y scroll left top transparent;
+				height: auto;
+				background-size: 100% 100%;
+				-moz-background-size: 100% 100%;
+				-webkit-background-size: 100% 100%;
+				width: 100%;
+			}
+			.cake-list ul {
+				padding-left: 17%;
+				height: auto;
+				overflow: hidden;
+			}
+			.cake-list li {
+				background: url('image/cake-item-bg.png') no-repeat scroll left top transparent;
+				background-size: 100% 100%;
+				-moz-background-size: 100% 100%;
+				-webkit-background-size: 100% 100%;
+				width: 31%;
+				height: auto;
+				float: left;
+				list-style: none;
+				margin-bottom: 5%;
+				padding: 3% 3% 5%;
+			}
+			.cake-list li:nth-of-type(2n+1) {
+				margin-right: 5%;
+			}
+			.cake-list p {
+				text-align: center;
+				color: #4f4f4f;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				margin-top: 4%;
+			}
+			.footer {
+				width: 100%;
+				height: 11%;
+				z-index: 200;
+				background-color: #f5f5f5;
+				position: fixed;
+				bottom: 0;
+			}
+
+			.back-login {
+				position: relative;
+				height: auto;
+				z-index: 1;
+				top: 0;
+			}
+			.error {
+				width: 90%;
+				height: 70px;
+				position: absolute;
+				top: 44%;
+				left: 5%;
+				background: none repeat scroll 0% 0% #333;
+				border-radius: 10px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				opacity: 0.8;
+				color: #FFF;
+				line-height: 70px;
+				font-size: 20px;
+				text-align: center;
+				z-index: 10;
+				display: none;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="back-login">
+			<img class="img-responsive" src="image/bg.png" />
+			<div class="div-brand">
+				<div class="div-content">
+					<img src="image/logo2.png" style="width:35%"/><span>吃完甜的吃点咸的</span>
+				</div>
+			</div>
+			<div class="div-mobile">
+				<div class="div-content">
+					<input type="text" style="width: 100%;border:0;color: gray;font-size: 18px;height:30px;" id="txtmobile" value="" />
+				</div>
+			</div>
+			<div class="position_bm">
+				<div class="div-content">
+					<a href="#" class="abming" id="submit-btn"> <img src="image/submit-btn.png" class="img-responsive"> </a>
+				</div>
+			</div>
+			<div class="cake-list">
+				<ul>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+					<li>
+						<img src="image/cake.png" class="img-responsive"/>
+						<p>
+							蛋糕名
+						</p>
+					</li>
+				</ul>
+
+			</div>
+			<img class="img-responsive" src="image/bottom-bg.png" style="margin-bottom: 20%;"/>
+		</div>
+
+		<div class="footer">
+			<a href="tel:4008227100" class="link-tel"> <img src="image/tel-bg.png" class="img-responsive"> </a>
+		</div>
+		<div id="error" class="error">
+			手机号码格式不正确
+		</div>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//提交按钮点击
+				$('#submit-btn').on('click', function(e) {
+					e.preventDefault();
+					//判断手机号码是否符合规则
+					if (checkMobile()) {
+						//$(this).remove();
+						//var _this = $(this);
+						var mobile_phone = $('#txtmobile').val();
+						$.post('/act/louxiu.php', {
+							'mobile_phone' : mobile_phone,
+							'act' : 'send_phone'
+						}, function(data) {
+							var _data = eval("(" + data + ")");
+
+							if (_data.code) {
+								alert(_data.message);
+							}
+						})
+					}
+
+				})
+			})
+			//验证手机号
+			function checkMobile() {
+				var sMobile = document.getElementById("txtmobile").value;
+				var sErrorMsg = document.getElementById("error");
+				if (!(/^1\d{10}$/.test(sMobile))) {
+					sErrorMsg.style.display = "block";
+					setTimeout(function() {
+						sErrorMsg.style.display = "none";
+					}, 3000)
+					sMobile.focus();
+					return false;
+				} else {
+					return true;
+				}
+			}
+
+		</script>
+
+	</body>
+</html>
