@@ -1,0 +1,24 @@
+Contents of /Volumes/新加卷/公司项目/Weibo1.4.1/pgweibo/pgweibo-Prefix.pch
+4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2335.9)
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-pipe
+-std=gnu99
+-fpascal-strings
+-O0
+-DPHONEGAP_FRAMEWORK=YES
+-isysroot
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+-fexceptions
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-D__IPHONE_OS_VERSION_MIN_REQUIRED=30000
+-I/Volumes/新加卷/公司项目/Weibo1.4.1/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include
+-F/Volumes/新加卷/公司项目/Weibo1.4.1/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator
+-F/Users/Shared/PhoneGap/Frameworks

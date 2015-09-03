@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css-->
+			
+		<link rel="stylesheet" media="" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="resources/css/style.css" type="text/css" />
+		
+	</head>
+	<body class="weibo">
+		<div data-role="page" data-theme="c" id="my-topic">
+			<div data-role="header">
+                
+				<div data-role="controlgroup" data-type="horizontal">
+    				<!--<a href="#my-topic" data-role="button">我的话题</a>-->
+   					<a href="#top-topic" data-role="button">热门话题</a>
+    				<!--<a href="#active-topic" data-role="button">活跃话题</a>-->
+
+    			</div>
+			</div><!-- /header -->
+                
+                <div data-role="content"> 
+                	<div id='wrapper'> 
+                		<div id='scroller'>  			
+                            <ul data-role="listview" data-theme="c"  id="topiclist">
+					<!--<li>
+						<a href="#">item1</a>
+					</li>
+					<li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li>
+                    <li>
+						<span>item</span>
+					</li> -->
+					
+                            </ul>
+				</div></div>
+                </div><!-- /content -->	
+			
+            
+			<!--<div data-role="footer">
+				<div data-role="navbar" class="footer-nav">
+					<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home" data-icon="custom"  rel="external">首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-icon="custom"  rel="external">消息</a>
+							</li>
+							<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile" data-icon="custom"  rel="external">我的资料</a>
+							</li>
+							<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic selected" data-icon="custom"  rel="external">话题</a>
+							</li>
+							<li>
+								<a href="#" id="nav-more" class="nav-more" data-icon="custom"  rel="external">更多</a>
+							</li>
+						</ul>
+				</div><!-- /navbar 
+			</div><!-- /footer -->
+		</div><!-- /page -->
+		<div data-role="page" data-theme="c" id="top-topic">
+			<div data-role="header">
+				<div data-role="controlgroup" data-type="horizontal">
+    				<a href="#my-topic" data-role="button">我的话题</a>
+   					<a href="#top-topic" data-role="button">热门话题</a>
+    				<a href="#active-topic" data-role="button">活跃话题</a>
+    			</div>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul data-role="listview" data-theme="c">
+					<li>
+						<a href="item2.html">item2</a>
+					</li>
+					<li>
+						<a href="item2.html">item2</a>
+					</li>
+					<li>
+						<a href="item2.html">item2</a>
+					</li>
+				</ul>
+			</div><!-- /content -->
+			<div data-role="footer">
+				<div data-role="navbar" class="footer-nav">
+					<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home" data-icon="custom" class="selected" rel="external">首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-icon="custom"  rel="external">消息</a>
+							</li>
+							<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile" data-icon="custom"  rel="external">我的资料</a>
+							</li>
+							<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic" data-icon="custom"  rel="external">话题</a>
+							</li>
+							<li>
+								<a href="#" id="nav-more" class="nav-more" data-icon="custom"  rel="external">更多</a>
+							</li>
+						</ul>
+				</div><!-- /navbar -->
+			</div><!-- /footer -->
+		</div><!-- /page -->
+		<div data-role="page" data-theme="c" id="active-topic">
+			<div data-role="header">
+				<div data-role="controlgroup" data-type="horizontal">
+    				<a href="#my-topic" data-role="button">我的话题</a>
+   					<a href="#top-topic" data-role="button">热门话题</a>
+    				<a href="#active-topic" data-role="button">活跃话题</a>
+    			</div>
+			</div><!-- /header -->
+			<div data-role="content">
+				<ul data-role="listview" data-theme="c">
+					<li>
+						<a href="item3.html">item3</a>
+					</li>
+					<li>
+						<a href="item3.html">item3</a>
+					</li>
+					<li>
+						<a href="item3.html">item3</a>
+					</li>
+				</ul>
+			</div><!-- /content -->
+			<div data-role="footer">
+				<div data-role="navbar" class="footer-nav">
+					<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home" data-icon="custom" class="selected" rel="external">首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-icon="custom"  rel="external">消息</a>
+							</li>
+							<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile" data-icon="custom"  rel="external">我的资料</a>
+							</li>
+							<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic" data-icon="custom"  rel="external">话题</a>
+							</li>
+							<li>
+								<a href="#" id="nav-more" class="nav-more" data-icon="custom"  rel="external">更多</a>
+							</li>
+						</ul>
+				</div><!-- /navbar -->
+			</div><!-- /footer -->
+		</div><!-- /page -->
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta charset="utf-8" />
+		<!-- iPad/iPhone specific css below, add after your main css
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="./javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="./resources/css/style.css" type="text/css" />	-->
+		<link rel="stylesheet" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" />
+		<link rel="stylesheet" href="resources/css/style.css" />
+		<script src="./javascript/lib/jquery-1.6.2.js"></script>
+		<script type="text/javascript" charset="utf-8" src="javascript/lib/iscroll.js"></script>
+		<script src="./javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.js"></script>
+		<script src="./javascript/lib/phonegap-1.4.1.js"></script>
+        
+        <script src="./javascript/custom/jquery.plugin.js"></script>
+        <script src="./javascript/custom/common.js"></script>
+    </head>
+	<body class="weibo" >
+		<div data-role="page" id="loginPage">
+			
+			<div data-role="content" class="login-content">
+				<div id="logo"></div>
+				<div id="login-field">						
+						<input type="text" name="name" id="name" class="input-field" placeholder="用户帐号"/> 						
+						<input type="password" name="password" id="password" class="input-field" placeholder="用户密码"/> 					
+				</div>
+				<a href="#" data-role="button" id="login-btn"></a>
+			</div><!-- /content -->
+		<div class="mask">
+		<div class="ajax-message-bg"></div>
+		<!--定位用的,覆盖在上一层上-->
+		<div class="ajax-message">
+		    <!--这一层要水平垂直居中-->
+			<div class="container"><img src="resources/images/ajax-loader.gif"/></div>
+			<p></p>
+		</div>
+		</div>	
+		</div><!-- /page -->
+	</body>
+</html>

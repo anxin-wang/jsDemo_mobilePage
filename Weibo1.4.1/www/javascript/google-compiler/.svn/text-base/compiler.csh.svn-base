@@ -1,0 +1,57 @@
+#!/bin/tcsh
+
+# edr.login-min.js
+java -jar compiler.jar --js=../plugins/jquery.min.js --js=../plugins/jquery.switchable.min.js --js=../plugins/jquery.validate.min.js --js=../mod.dev/login.js --js_output_file=../edr.login-min.js
+if (-r ../edr.login-min.js) then
+    echo "edr.login-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+
+# edr.register-min.js
+java -jar compiler.jar --js=../plugins/jquery.min.js --js=../plugins/artDialog.min.js --js=../plugins/jquery.validate.min.js --js=../profiles/uas.js --js=../mod.dev/register.js --js_output_file=../edr.register-min.js
+if (-r ../edr.register-min.js) then
+    echo "edr.register-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+
+# edr.tweets-min.js
+java -jar compiler.jar --js=../plugins/jquery.min.js --js=../plugins/artDialog.min.js --js=../plugins/jquery.tmpl.min.js --js=../mod.dev/timeline.js --js=../mod.dev/follow.js --js=../mod.dev/top.js --js_output_file=../edr.tweets-min.js
+if (-r ../edr.tweets-min.js) then
+    echo "edr.tweets-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+
+# edr.structure-min.js
+java -jar compiler.jar --js=../plugins/jquery.min.js --js=../plugins/artDialog.min.js --js=../plugins/jquery.lazyload.js --js=../mod.dev/follow.js --js=../mod.dev/structure.js --js=../mod.dev/top.js --js_output_file=../edr.structure-min.js
+if (-r ../edr.structure-min.js) then
+    echo "edr.structure-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+
+# edr.settings-min.js
+java -jar compiler.jar --js=../plugins/jquery.min.js --js=../plugins/artDialog.min.js --js=../plugins/jquery.validate.min.js --js=../plugins/jquery.jcrop.min.js --js=../mod.dev/setting.js --js=../mod.dev/avatar.js --js=../mod.dev/top.js --js_output_file=../edr.settings-min.js
+if (-r ../edr.settings-min.js) then
+    echo "edr.settings-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+
+# edr.switchable-min.js
+java -jar compiler.jar --js=../plugins/jquery.switchable-2.0.min.js --js=../mod.dev/banner.js --js_output_file=../edr.switchable-min.js
+if (-r ../edr.switchable-min.js) then
+    echo "edr.switchable-min.js is finished"
+else
+    echo "compress faild"; exit 1
+endif
+
+echo "All finished"
+exit 0

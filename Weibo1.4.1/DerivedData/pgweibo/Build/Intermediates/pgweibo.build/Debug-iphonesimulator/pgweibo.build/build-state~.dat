@@ -1,0 +1,682 @@
+Tpgweibo
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist pgweibo/pgweibo-Info.plist
+cProcessPCH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch pgweibo/pgweibo-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo normal i386
+cGenerateDSYMFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+cCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/Localizable.strings pgweibo/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/InfoPlist.strings pgweibo/en.lproj/InfoPlist.strings
+cCpResource pgweibo/Resources/icons/icon.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png
+cCpResource pgweibo/Resources/icons/icon@2x.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png
+cCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj/Localizable.strings pgweibo/Resources/es.lproj/Localizable.strings
+cCpResource pgweibo/Resources/icons/icon-72.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png
+cCpResource pgweibo/Resources/splash/Default.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png
+cCpResource pgweibo/Resources/splash/Default@2x.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png
+cCpResource pgweibo/Resources/Capture.bundle DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle
+cCopyPlistFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PhoneGap.plist pgweibo/PhoneGap.plist
+cCpResource www DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www
+cCompileXIB /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib
+cGenerateDSYMFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+cPhaseScriptExecution "Run Script" /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh
+cTouch /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F28A2AD0000000000000110
+t1328063149
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7806CF000000000018D430
+t1316488911
+s1627184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004E78054400000000000954B0
+t1316488516
+s611504
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004E7807950000000000169840
+t1316489109
+s1480768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F1F200000000002F4210
+t1316155890
+s3097104
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004E78059F00000000000859A0
+t1316488607
+s547232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004E780641000000000006B1C0
+t1316488769
+s438720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F28F0000000000001534
+t1316156047
+s5428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004E72F28F0000000000001ADB
+t1316156047
+s6875
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
+c000000004E72F28F000000000000183B
+t1316156047
+s6203
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004E72F28F0000000000000E81
+t1316156047
+s3713
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004E72F28F0000000000001B2E
+t1316156047
+s6958
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004E72F28F0000000000003B3D
+t1316156047
+s15165
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004E72F28F000000000000603B
+t1316156047
+s24635
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004E7808D3000000000023A3F0
+t1316489427
+s2335728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004E72F3C800000000000998C0
+t1316156360
+s628928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004E72F177000000000006C8A0
+t1316155767
+s444576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E78066A0000000000000BCB
+t1316488810
+s3019
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/AvailabilityMacros.h
+c000000004E5C62D90000000000007A5E
+t1314677465
+s31326
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/TargetConditionals.h
+c000000004E5C62D900000000000031E9
+t1314677465
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdint.h
+c000000004E605A1100000000000018EF
+t1314937361
+s6383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/sys/_types.h
+c000000004E72F3620000000000001845
+t1316156258
+s6213
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c000000004E2F28B80000000000000D03
+t1311713464
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h
+c000000004E2F28B70000000000003197
+t1311713463
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c000000004E2F28290000000000000155
+t1311713321
+s341
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/InvokedUrlCommand.h
+c000000004F3B767400000000000004C4
+t1329297012
+s1220
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/JSONKit.h
+c000000004F3B76740000000000002DBE
+t1329297012
+s11710
+i<stddef.h>
+i<stdint.h>
+i<limits.h>
+i<TargetConditionals.h>
+i<AvailabilityMacros.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSString.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/NSMutableArray+QueueAdditions.h
+c000000004F3B767400000000000003A7
+t1329297012
+s935
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGCommandDelegate.h
+c000000004F3B767400000000000003EC
+t1329297012
+s1004
+i"InvokedUrlCommand.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGPlugin.h
+c000000004F3B767400000000000009E9
+t1329297012
+s2537
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"PluginResult.h"
+i"NSMutableArray+QueueAdditions.h"
+i"PGCommandDelegate.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGURLProtocol.h
+c000000004F3B767400000000000003FD
+t1329297012
+s1021
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGViewController.h
+c000000004F3B7674000000000000093A
+t1329297012
+s2362
+i"UIGapView.h"
+i"JSONKit.h"
+i"InvokedUrlCommand.h"
+i"PGCommandDelegate.h"
+i"PGWhitelist.h"
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PGWhitelist.h
+c000000004F3B767400000000000004AF
+t1329297012
+s1199
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/PluginResult.h
+c000000004F3B76740000000000000C6C
+t1329297012
+s3180
+i<Foundation/Foundation.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers/UIGapView.h
+c000000004F3B76740000000000000352
+t1329297012
+s850
+i<UIKit/UIKit.h>
+
+N/Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/PhoneGap
+c000000004F3B767400000000001B6E5E
+t1329297012
+s1797726
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/pgweibo.LinkFileList
+c000000004F3B79EA00000000000001DD
+t1329297898
+s477
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh
+c000000004F3B79EA000000000000030C
+t1329297898
+s780
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/MainViewController.nib
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PhoneGap.plist
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PkgInfo
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www
+t2
+s0
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.h
+c000000004F3B775A0000000000000664
+t1329297242
+s1636
+i<UIKit/UIKit.h>
+i<PhoneGap/PGViewController.h>
+i"PGViewController.h"
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m
+c000000004F3B775A00000000000019D4
+t1329297242
+s6612
+i"AppDelegate.h"
+i"MainViewController.h"
+i<PhoneGap/PGPlugin.h>
+i<PhoneGap/PGURLProtocol.h>
+i"PGPlugin.h"
+i"PGURLProtocol.h"
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.h
+c000000004F3B775A0000000000000144
+t1329297242
+s324
+i<PhoneGap/PGViewController.h>
+i"PGViewController.h"
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m
+c000000004F3B775A0000000000000422
+t1329297242
+s1058
+i"MainViewController.h"
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib
+c000000004F3B775A000000000000143A
+t1329297242
+s5178
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/PhoneGap.plist
+c000000004F3B79370000000000000630
+t1329297719
+s1584
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/Capture.bundle
+c000000004F3B775A0000000000000242
+t1329297242
+s578
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/en.lproj/Localizable.strings
+c000000004F3B775A0000000000000470
+t1329297242
+s1136
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/es.lproj/Localizable.strings
+c000000004F3B775A000000000000047D
+t1329297242
+s1149
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon-72.png
+c000000004E347CBF00000000000013B9
+t1312062655
+s5049
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon.png
+c000000004E7572D8000000000000EC7F
+t1316319960
+s60543
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon@2x.png
+c000000004E72F84200000000000015E0
+t1316157506
+s5600
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/splash/Default.png
+c000000004E7577D9000000000000BE81
+t1316321241
+s48769
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/splash/Default@2x.png
+c000000004E7577BC0000000000019963
+t1316321212
+s104803
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/en.lproj/InfoPlist.strings
+c000000004F3B775A000000000000002D
+t1329297242
+s45
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m
+c000000004F3B775A000000000000047D
+t1329297242
+s1149
+i<UIKit/UIKit.h>
+
+N/Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Prefix.pch
+c000000004F3B775A0000000000000091
+t1329297242
+s145
+i<UIKit/UIKit.h>
+
+N/Users/ouyotsubakuro/Works/pgweibo/www
+c000000004F3B78D40000000000000242
+t1329297620
+s578
+
+Npgweibo/pgweibo-Info.plist
+c000000004F3B775A00000000000005BD
+t1329297242
+s1469
+
+CBuild AST from /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m
+r0
+
+CBuild AST from /Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies02d78d6ab1ebb441^38bcac6ab1ebb441^---0#1#0#--18"Check dependencies36"38839B57-B034-48FC-A41F-BFBE6C9A8790-
+
+CCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s350990699.637671
+e350990699.852955
+r1
+xCompileC
+xDerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o
+x/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m9357a36bb1ebb441^535bda6bb1ebb441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m0000000000000000^1962"CompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o pgweibo/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyotsubakuro/Works/pgweibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/pgweibo.hmap -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources/i386 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources -F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch -c /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/AppDelegate.m -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/AppDelegate.o36"A510F8ED-14E6-4E66-A4AC-D67DD32DAD0B-
+
+CCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s350990699.637674
+e350990699.722609
+r1
+xCompileC
+xDerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o
+x/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m6057a36bb1ebb441^09fdb86bb1ebb441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m0000000000000000^1990"CompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o pgweibo/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyotsubakuro/Works/pgweibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/pgweibo.hmap -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources/i386 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources -F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch -c /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.m -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/MainViewController.o36"9471B787-772E-48DC-8F75-EA78A0C71D7B-
+
+CCompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o /Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s350990699.637668
+e350990699.688864
+r1
+xCompileC
+xDerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o
+x/Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m8a59a36bb1ebb441^ea59b06bb1ebb441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m0000000000000000^1918"CompileC DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o pgweibo/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyotsubakuro/Works/pgweibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/pgweibo.hmap -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources/i386 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources -F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -include /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch -c /Users/ouyotsubakuro/Works/pgweibo/pgweibo/main.m -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/main.o36"309B14E6-53F2-4B74-ACCB-42B62658E8BA-
+
+CCompileXIB /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib
+s350990700.186142
+e350990703.630395
+r1
+xCompileXIB
+x/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xibcdc92f6cb1ebb441^f661a16fb1ebb441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib0000000000000000^727"CompileXIB pgweibo/Classes/MainViewController.xib    cd /Users/ouyotsubakuro/Works/pgweibo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/MainViewController.nib /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Classes/MainViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"6D776636-01E1-4BC7-8E93-F0A1A32E8CB4-
+
+CCopyPlistFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PhoneGap.plist pgweibo/PhoneGap.plist
+s350990700.185925
+e350990700.273047
+r1
+xCopyPlistFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PhoneGap.plist
+xpgweibo/PhoneGap.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy pgweibo/PhoneGap.plistd7c32f6cb1ebb441^ace6456cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/PhoneGap.plist0000000000000000^473"CopyPlistFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PhoneGap.plist pgweibo/PhoneGap.plist    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app -- pgweibo/PhoneGap.plist36"6002AE21-E077-4418-8977-D35CCD694A59-
+
+CCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/InfoPlist.strings pgweibo/en.lproj/InfoPlist.strings
+s350990700.170538
+e350990700.177698
+r1
+xCopyStringsFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/InfoPlist.strings
+xpgweibo/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy pgweibo/en.lproj/InfoPlist.strings1bbc2b6cb1ebb441^37892d6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/en.lproj/InfoPlist.strings0000000000000000^561"CopyStringsFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/InfoPlist.strings pgweibo/en.lproj/InfoPlist.strings    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj -- pgweibo/en.lproj/InfoPlist.strings36"22045AC3-6FF1-4DDC-BA12-BFC048E6AC6B-
+
+CCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/Localizable.strings pgweibo/Resources/en.lproj/Localizable.strings
+s350990700.170515
+e350990700.176734
+r1
+xCopyStringsFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/Localizable.strings
+xpgweibo/Resources/en.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy pgweibo/Resources/en.lproj/Localizable.stringsd8b72b6cb1ebb441^89402d6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/en.lproj/Localizable.strings0000000000000000^587"CopyStringsFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj/Localizable.strings pgweibo/Resources/en.lproj/Localizable.strings    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/en.lproj -- pgweibo/Resources/en.lproj/Localizable.strings36"0EC8EE7D-89E9-4281-BA5A-227ED9097E6C-
+
+CCopyStringsFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj/Localizable.strings pgweibo/Resources/es.lproj/Localizable.strings
+s350990700.170542
+e350990700.179760
+r1
+xCopyStringsFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj/Localizable.strings
+xpgweibo/Resources/es.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy pgweibo/Resources/es.lproj/Localizable.stringse0bd2b6cb1ebb441^68052e6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/es.lproj/Localizable.strings0000000000000000^587"CopyStringsFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj/Localizable.strings pgweibo/Resources/es.lproj/Localizable.strings    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/es.lproj -- pgweibo/Resources/es.lproj/Localizable.strings36"45AB69C9-0508-432C-97A7-5D0D0AC43DEA-
+
+CCpResource pgweibo/Resources/Capture.bundle DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle
+s350990700.178366
+e350990700.195991
+r1
+xCpResource
+xpgweibo/Resources/Capture.bundle
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle23c02d6cb1ebb441^b62d326cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle00f448e8dfffdf42^585"CpResource pgweibo/Resources/Capture.bundle DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Capture.bundle    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/Capture.bundle /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"EB21D7C5-9D87-4E99-82F1-3EF2A9F1B981-
+
+CCpResource pgweibo/Resources/icons/icon-72.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png
+s350990700.170935
+e350990700.188589
+r1
+xCpResource
+xpgweibo/Resources/icons/icon-72.png
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.pngd8d62b6cb1ebb441^0648306cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png00f448e8dfffdf42^588"CpResource pgweibo/Resources/icons/icon-72.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon-72.png    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon-72.png /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"6F8AE1F2-C4E0-485D-9276-65625983B325-
+
+CCpResource pgweibo/Resources/icons/icon.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png
+s350990700.170544
+e350990700.186805
+r1
+xCpResource
+xpgweibo/Resources/icons/icon.png
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png16bd2b6cb1ebb441^4ed32f6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png00f448e8dfffdf42^579"CpResource pgweibo/Resources/icons/icon.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon.png    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon.png /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"55C807EE-9CA2-4085-BC96-CE9805E8CADC-
+
+CCpResource pgweibo/Resources/icons/icon@2x.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png
+s350990700.170547
+e350990700.180024
+r1
+xCpResource
+xpgweibo/Resources/icons/icon@2x.png
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.pngbabe2b6cb1ebb441^61162e6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png00f448e8dfffdf42^594"CpResource "pgweibo/Resources/icons/icon@2x.png" "DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/icon@2x.png"    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/icons/icon@2x.png" /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"901A9C19-D7F6-48A4-80A0-8CDAD861CAC2-
+
+CCpResource pgweibo/Resources/splash/Default.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png
+s350990700.170945
+e350990700.273072
+r1
+xCpResource
+xpgweibo/Resources/splash/Default.png
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png2dcf2b6cb1ebb441^0af8456cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png00f448e8dfffdf42^590"CpResource pgweibo/Resources/splash/Default.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default.png    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/splash/Default.png /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"61E2FC2A-27B6-4501-96D1-28291E7B29BC-
+
+CCpResource pgweibo/Resources/splash/Default@2x.png DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png
+s350990700.170966
+e350990700.273064
+r1
+xCpResource
+xpgweibo/Resources/splash/Default@2x.png
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png2cd72b6cb1ebb441^20ef456cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png00f448e8dfffdf42^605"CpResource "pgweibo/Resources/splash/Default@2x.png" "DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Default@2x.png"    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ouyotsubakuro/Works/pgweibo/pgweibo/Resources/splash/Default@2x.png" /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"71109750-6674-4E7E-AC9B-0AC9F032C504-
+
+CCpResource www DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www
+s350990700.186120
+e350990700.735616
+r1
+xCpResource
+xwww
+xDerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/wwwb5c32f6cb1ebb441^fc51bc6cb1ebb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www00f448e8dfffdf42^516"CpResource www DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/www    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ouyotsubakuro/Works/pgweibo/www /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"CAD45832-DBE3-49ED-B07F-689A76C2F41E-
+
+CGenerateDSYMFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+s350990703.637858
+e350990703.657224
+r1
+xGenerateDSYMFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM605ba36fb1ebb441^9e40a86fb1ebb441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM/0000000000000000^597"GenerateDSYMFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app.dSYM36"9E5EB82D-1F1E-4BA8-813F-0430B5F5ED60-
+
+CLd /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo normal i386
+s350990699.859467
+e350990699.986524
+r1
+xLd
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibob379dc6bb1ebb441^2e90fc6bb1ebb441^---0#0#0#--1571"Ld DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo normal i386    cd /Users/ouyotsubakuro/Works/pgweibo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -filelist /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/pgweibo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak_library /usr/lib/libSystem.B.dylib -fobjc-arc -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework CoreMedia -framework PhoneGap -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/pgweibo36"01A08727-081D-4F5B-9D3F-F89748D36F47-
+
+CPhaseScriptExecution "Run Script" /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh
+s350990703.665269
+e350990703.686928
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh
+o		8A1BAB9C14EBAF400047502F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'9d64ab6fb1ebb441^a5daaf6fb1ebb441^-131"		8A1BAB9C14EBAF400047502F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };1(21%IDEActivityLogMessage2@131"		8A1BAB9C14EBAF400047502F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };-350990703#0#131#-0#-----0#0#0#--19050"PhaseScriptExecution "Run Script" DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh    cd /Users/ouyotsubakuro/Works/pgweibo    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ouyotsubakuro    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products    setenv BUILD_ROOT /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/2f/bzx_mzm96d3_3qpnyt81h5w40000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/2f/bzx_mzm96d3_3qpnyt81h5w40000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLASS_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/2f/bzx_mzm96d3_3qpnyt81h5w40000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH pgweibo.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH pgweibo.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/pgweibo.dst    setenv DWARF_DSYM_FILE_NAME pgweibo.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH pgweibo.app/Executables    setenv EXECUTABLE_FOLDER_PATH pgweibo.app    setenv EXECUTABLE_NAME pgweibo    setenv EXECUTABLE_PATH pgweibo.app/pgweibo    setenv FILE_LIST /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH pgweibo.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator\" /Users/Shared/PhoneGap/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME pgweibo.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER pgweibo/pgweibo-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS PHONEGAP_FRAMEWORK=YES    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvmgcc42    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvmgcc42    setenv GCC_WARN_ABOUT_MISSING_PROTOTYPES YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE pgweibo/pgweibo-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH pgweibo.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH pgweibo.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/pgweibo.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ouyotsubakuro    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/pgweibo.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH pgweibo.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/pgweibo-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal/i386/pgweibo.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH pgweibo.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11D50    setenv MAC_OS_X_VERSION_ACTUAL 1073    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0703    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Objects-normal    setenv OBJROOT /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak_library /usr/lib/libSystem.B.dylib"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH pgweibo.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/PkgInfo    setenv PKGINFO_PATH pgweibo.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 9A334    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH pgweibo.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH pgweibo.app/PrivateHeaders    setenv PRODUCT_NAME pgweibo    setenv PRODUCT_SETTINGS_PATH /Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT pgweibo    setenv PROJECT_DERIVED_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/DerivedSources    setenv PROJECT_DIR /Users/ouyotsubakuro/Works/pgweibo    setenv PROJECT_FILE_PATH /Users/ouyotsubakuro/Works/pgweibo/pgweibo.xcodeproj    setenv PROJECT_NAME pgweibo    setenv PROJECT_TEMP_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build    setenv PUBLIC_HEADERS_FOLDER_PATH pgweibo.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH pgweibo.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk    setenv SDK_NAME iphonesimulator5.0    setenv SDK_PRODUCT_BUILD_VERSION 9A334    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH pgweibo.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH pgweibo.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ouyotsubakuro/Works/pgweibo    setenv SRCROOT /Users/ouyotsubakuro/Works/pgweibo    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME pgweibo    setenv TARGET_BUILD_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator    setenv TARGET_NAME pgweibo    setenv TARGET_TEMP_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build    setenv TEMP_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build    setenv TEMP_FILES_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build    setenv TEMP_FILE_DIR /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build    setenv TEMP_ROOT /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH pgweibo.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ouyotsubakuro    setenv USER_APPS_DIR /Users/ouyotsubakuro/Applications    setenv USER_LIBRARY_DIR /Users/ouyotsubakuro/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH pgweibo.app/version.plist    setenv VERSION_INFO_BUILDER ouyotsubakuro    setenv VERSION_INFO_FILE pgweibo_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:pgweibo  PROJECT:pgweibo-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME pgweibo.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4D199    setenv XCODE_VERSION_ACTUAL 0420    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0420    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/Script-8A1BAB4814EBAEDA0047502F.sh36"EC3A2954-183E-4721-9B1C-CF54E9CF6161-
+
+CProcessInfoPlistFile /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist pgweibo/pgweibo-Info.plist
+s350990698.689449
+e350990698.702905
+r1
+xProcessInfoPlistFile
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist
+xpgweibo/pgweibo-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process pgweibo/pgweibo-Info.plistfb58b16ab1ebb441^e9f1b36ab1ebb441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Info.plist0000000000000000^661"ProcessInfoPlistFile DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist pgweibo/pgweibo-Info.plist    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pgweibo/pgweibo-Info.plist -genpkginfo /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app/Info.plist36"2C497884-8ACD-4561-928B-832DA4EF0104-
+
+CProcessPCH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch pgweibo/pgweibo-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s350990698.710765
+e350990699.628643
+r1
+xProcessPCH
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch
+xpgweibo/pgweibo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile pgweibo/pgweibo-Prefix.pch0e16b66ab1ebb441^78efa06bb1ebb441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Prefix.pch0000000000000000^1789"ProcessPCH DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch pgweibo/pgweibo-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/ouyotsubakuro/Works/pgweibo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DPHONEGAP_FRAMEWORK=YES -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/pgweibo.hmap -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/include -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources/i386 -I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Intermediates/pgweibo.build/Debug-iphonesimulator/pgweibo.build/DerivedSources -F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator -F/Users/Shared/PhoneGap/Frameworks -c /Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Prefix.pch -o /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/PrecompiledHeaders/pgweibo-Prefix-gddlhslvtrlmajatcmjuojxolrlc/pgweibo-Prefix.pch.gch36"B34E5198-0B1E-413B-884A-3256220CB652-
+
+CProcessPCH /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Index/PrecompiledHeaders/pgweibo-Prefix-ajkpzfocnvszzjcdigjqhvehsgur_ast/pgweibo-Prefix.pch.pth pgweibo/pgweibo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app
+s350990703.698065
+e350990703.708444
+r1
+xTouch
+x/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app9b00b36fb1ebb441^fb5cb56fb1ebb441^---0#0#0#--374"Touch DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app    cd /Users/ouyotsubakuro/Works/pgweibo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphonesimulator/pgweibo.app36"F7D91CBF-CF03-4452-8B8E-51D0415F5B16-
+

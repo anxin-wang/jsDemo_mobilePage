@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="resources/css/style.css" type="text/css" />	-->
+		<link rel="stylesheet" media="" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="resources/css/style.css" type="text/css" />
+		
+	</head>
+	<body class="weibo">
+		<div data-role="page" id="topiclist">
+			<div data-role="header">
+                            
+                		<div class="topbar-center">
+					<h1></h1>
+					<a  data-role="button" class="arrow-btn"  href="#"></a>
+				</div>
+               
+                <a data-role="button" class="hidebutton loading-btn"></a>
+			</div><!-- /header -->
+            <div id="wrapper">
+			<div data-role="content" id="scroller">
+			
+				
+			</div>	
+			</div>
+			
+				<div data-role="footer">
+					<div data-role="navbar" class="footer-nav">
+						<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home selected" data-icon="custom" >首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-icon="custom">消息</a>
+							</li>
+							<!--<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile" data-icon="custom"  rel="external">我的资料</a>
+							</li>
+							<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic" data-icon="custom"  rel="external">话题</a>
+							</li>-->
+							<li>
+								<a href="#" id="nav-more" class="nav-more" data-icon="custom">更多</a>
+							</li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+				<div class="mask"><div class="ajax-message-bg"></div><div class="ajax-message"><img src="resources/images/ajax-loader.gif"/><p>正在刷新</p></div></class>
+			</div><!-- /page -->
+	
+	</body>
+</html>

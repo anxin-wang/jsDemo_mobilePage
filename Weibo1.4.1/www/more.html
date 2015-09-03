@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="resources/css/style.css" type="text/css" />	-->
+		<link rel="stylesheet" media="" href="./javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="./resources/css/style.css" type="text/css" />
+	</head>
+	<body class="weibo" >
+	<div data-role="page" id="more">
+
+        <div data-role="header">
+			<h1 class="only-h1">更多</h1>
+		</div><!-- /header -->
+        <div id="wrapper">
+			<div  id="scroller" class="function-list-container" data-role="content" >
+				<div class="function-list">
+					<a class="funciton-list-item" id="logout-btn">退出当前账号</a>
+					<a class="funciton-list-item" id="about-btn">关于</a>
+				</div>
+			</div>
+			
+</div><!-- /page -->
+	<div data-role="footer">
+					<div data-role="navbar" class="footer-nav">
+						<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home" data-transition="fade" data-icon="custom">首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-transition="fade" data-icon="custom" >消息</a>
+							</li>
+							<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile" data-direction="reverse" data-icon="custom" data-transition="fade">我的资料</a>
+							</li>
+							<!--<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic" data-icon="custom"  rel="external">话题</a>
+							</li>-->
+							<li>
+								<a href="#" id="nav-more" class="nav-more selected"  data-icon="custom" data-transition="fade">更多</a>
+							</li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+	</body>
+</html>

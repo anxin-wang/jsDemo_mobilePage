@@ -1,0 +1,32 @@
+Contents of /Users/ouyotsubakuro/Works/Weibo1.4.1/pgweibo/pgweibo-Prefix.pch
+3.0 (tags/Apple/clang-211.9) (based on LLVM 3.0svn)
+arm-apple-darwin11.3.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-O0
+-DPHONEGAP_FRAMEWORK=YES
+-isysroot
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+-gdwarf-2
+-mthumb
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=3.0
+-I/Users/ouyotsubakuro/Works/Weibo1.4.1/DerivedData/pgweibo/Build/Products/Debug-iphoneos/include
+-F/Users/ouyotsubakuro/Works/Weibo1.4.1/DerivedData/pgweibo/Build/Products/Debug-iphoneos
+-F/Users/Shared/PhoneGap/Frameworks
+-ferror-limit=10
+-working-directory=/Users/ouyotsubakuro/Works/Weibo1.4.1
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=9A334

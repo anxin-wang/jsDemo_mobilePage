@@ -1,0 +1,791 @@
+/* Reset */
+* { margin:0; padding:0; }
+
+body{ 
+	font-family: arial, sans-serif;
+	font-size:15px;
+	line-height: 1.5em;
+	width:100%; 
+}
+
+
+
+address, em { font-style:normal; }
+ul, ol { list-style:none; }
+
+a { text-decoration:none; }
+
+a img { border:0; }
+/* Clearfix */
+.clearfix:before,.clearfix:after { content:'\20'; display:table;}
+.clearfix:after { clear:both; }
+.clearfix { *zoom:1; }
+/***********jQuery Mobile <a> CSS override********/
+a.ui-btn.ui-shadow{
+	-webkit-box-shadow: none;
+}
+a.ui-btn-corner-all{
+	border-radius:0;
+}
+.weibo .ui-header h1.only-h1{
+	margin:10px 0px;
+	
+}
+.weibo .ui-header h1.profile-h1{
+	margin:10px 0 ;
+}
+/************override orginal padding 15px,it will make pages too left******************/
+.ui-content{
+	padding:0px;
+}
+/*****************iScroll wrapper************/
+#wrapper {
+    position:relative;
+    z-index:1;
+    width:320px;
+	height:364px;	
+    overflow:auto;
+}
+#my-topic #wrapper,#friends #wrapper{
+	height:404px;
+}
+.ui-content .ui-listview
+{
+    margin:0px;
+}
+#my-topic .ui-content .ui-listview,#top-topic .ui-content .ui-listview,#active-topic .ui-content .ui-listview{
+	
+    /*height:354px;*/
+}
+
+.left{
+	float:left;
+}
+
+
+/**************custom footer bar nav button ************/
+.footer-nav .ui-btn-active{
+	text-decoration:none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#333333));
+}
+.footer-nav .ui-btn .ui-btn-inner {
+	padding-top: 33px !important;
+}
+.footer-nav .ui-btn .ui-icon {
+	width: 35px !important;
+	height: 33px !important;
+    
+	margin-left: -20px !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important;
+	background: url("../images/icons.png") no-repeat transparent;
+}
+.footer-nav .selected .ui-btn-inner{
+	background: url("../images/icon-selected-bg.png") no-repeat transparent 5px 4px;
+}
+.footer-nav .ui-btn-text{
+    font-size:10px;
+}
+.footer-nav .ui-btn-up-a,.footer-nav .ui-btn-hover-a{
+	border:none;
+}
+.ui-header.ui-bar-a{
+	background: url("../images/top-bar-bg.png") repeat-x transparent top left;
+	border: 1px solid #8793ad;
+	z-index:200;
+	height: 42px;	
+	background-size: 100% 51px;
+}
+.weibo-list-item{
+	height:100%;
+	width:300px;
+	background-color: #ebedf1;
+	float:left;
+	padding:5px 10px;
+    
+}
+
+.weibo-list-item-bottom{
+	background:url(../images/weibo-list-bg-bottom.png) repeat-x ;
+	height:1px;
+	clear:both; 
+}
+.weibo-content{
+	height:auto;
+	width:80%;
+	float:left;
+	
+}
+.weibo-user-icon{
+	width:15%;
+    margin-top: 5px;
+	margin-right:5px;
+	float: left;
+}
+.weibo-user-icon img{
+	width:40px;
+	height:40px;
+	float: left;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+.weibo-user-icon p.weibo-user-name{
+	float: left;
+	width:40px;
+	margin:0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.weibo-time{
+	font-size: 11px;	
+	color:#FFAD25;
+    float: right;
+}
+.weibo-information img{
+	float: left;
+	margin-right:5px;
+}
+.weibo-short-article{
+	clear:both;
+}
+.weibo-short-article p{
+    width:250px;
+    font-size: 16px;
+}
+.weibo-image{
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: auto;
+    padding: 2px;
+    width: 60px;
+    overflow:hidden;
+}
+.weibo-article-source{
+	height:auto;
+	width: 250px;
+}
+
+.weibo-article-source-top{
+	background:url(../images/source-top.png); 
+	height:12px;
+	background-size: 250px 12px;
+	-webkit-background-size: 250px 12px;
+}
+.weibo-article-source-middle{
+	padding: 5px 10px;
+	background:url(../images/source-middle.png) repeat-y ; 
+	background-size: 250px 1px;
+}
+.weibo-article-source-middle p{
+	font-size: 16px;
+	color:#666666;
+}
+.weibo-article-source-bottom{
+	background:url(../images/source-bottom.png) ;
+	height:3px;
+	background-size: 250px 3px;
+}
+
+#nav-home.selected .ui-icon{
+	background-position: 0px -45px ;
+} 
+#nav-profile .ui-icon{
+	background-position: -50px 0px ;
+} 
+#nav-profile.selected .ui-icon{
+	background-position: -50px -45px ;
+} 
+#nav-topic .ui-icon{
+	background-position: -105px 0px ;
+}
+#nav-topic.selected .ui-icon{
+	background-position: -105px -45px ;
+}
+#nav-more .ui-icon{
+	background-position: -169px 0px ;
+}
+#nav-more.selected .ui-icon{
+	background-position: -169px -45px ;
+}
+#nav-message .ui-icon{
+	background-position: -225px 0px ;
+}
+#nav-message.selected .ui-icon{
+	background-position: -225px -45px ;
+}
+.nav-message .ui-btn-text{
+	margin-left:-5px;
+}
+.nav-more .ui-btn-text{
+	margin-left: -3px;
+}
+/********Login************/
+.login-content {
+	
+	min-height: 464px;
+	background: url("../images/login-bg.png") left top repeat-x transparent;
+	background-size: 1px 464px;
+	-webkit-background-size: 1px 464px;
+}
+#logo {
+	width: 320px;
+	height: 50px;
+	margin-top: 10px;
+	background: url("../images/logo.png") 50% 50% no-repeat transparent;
+	background-size: 100px 30px;
+	-webkit-background-size: 100px 30px;
+}
+#login-field {
+	background: url("../images/login-field-bg.png") left top no-repeat transparent;
+	background-size: 308px 95px;
+	-webkit-background-size: 308px 95px;
+	width: 308px;
+	height: 95px;
+	margin-left: 5px;
+}
+input.input-field {
+	width: 70%;
+    height:26px;
+    line-height:34px;
+    margin-left:60px;
+	border: none;
+	padding: 1.5em 0.4em 0 0.4em ;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    
+	background: none;
+}
+
+
+
+#login-btn {
+	background: url("../images/login-btn.png") -1px -1px no-repeat transparent;
+	background-size:260px 99px;
+	-webkit-background-size: 260px 99px;
+	border: none;
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	height: 37px;
+	width: 258px;
+	margin-left: 30px;
+}
+#login-btn:active,#login-btn:visited{
+	background-position: -1px -62px;
+}
+
+
+a.ui-btn.new-weibo-btn{
+	float:left;
+	width:37px;
+	height:35px;
+    text-decoration:none;
+    -webkit-box-shadow: none;
+    border-color:transparent;
+    
+    
+	background:url(../images/toolbar-icons.png) -6px -86px no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;	
+}
+a.ui-btn.new-weibo-btn:hover{
+	background-position: -6px -122px;
+}
+a.ui-btn.refresh-btn{
+	
+	width:41px;
+	height:35px;
+    border:none;
+    -webkit-box-shadow: none;
+
+	background:url(../images/toolbar-icons.png) -6px 0px no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;	
+}
+a.ui-btn.refresh-btn:hover{
+	background-position: -6px -36px;
+}
+.weibo .ui-header h1{
+	font-size:20px;
+	color:#5D5D5D;
+    text-shadow:none;
+	margin-top:0px;
+    width:320px;
+    margin:0 auto;
+	float:left;
+}
+
+.arrow-btn.ui-btn{
+	width:14px;
+	height:19px;
+    display: none;
+	float:left;
+    margin-top:7px;
+	border:none;
+	background:url(../images/arrow-btn.png) left top no-repeat transparent;
+}
+.topbar-center{
+	float:left;
+	margin:10px 0px;
+    width:320px;
+    text-align: center;
+}
+/***************profile******************/
+#profile .ui-content{
+	height:365px;
+}
+.edit-profile-btn{
+	width:66px;
+	height:35px;
+	border:none;
+	display: inline-block;
+	background:url(../images/edit-profile-btn.png) left top no-repeat transparent;
+}
+#my-profile-table{
+	margin-left:5px;
+    margin-top:10px;
+	width:320px;
+	height:139px;
+	background:url(../images/myprofile-table-bg.png) left top no-repeat transparent;
+}
+#myprofile-list{
+    background:url(../images/myprofile-list-bg.png) left top no-repeat transparent;
+    -webkit-background-size:cover;
+    height:140px;
+}
+#my-profile-table td{
+	padding: 0px 54px;
+    width: 120px;
+    text-align: center;
+}
+.myprofile-item{
+    background:none;
+    height:30px;
+    line-height: 30px;
+    border:none;
+}
+.category{
+	width:35px;
+	font-size: 16px;
+}
+.myprofile-table-number{
+	width: 35px;
+	font-size: 19px;
+	
+}
+.myprofile-header{
+	background:url(../images/myprofile-header-bg.png) left top repeat-x transparent;
+	height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.myprofile-header img{   
+        border-bottom-left-radius: 4px 4px;
+        border-bottom-right-radius: 4px 4px;
+        border-top-left-radius: 4px 4px;
+        border-top-right-radius: 4px 4px;
+        float: left;
+        height: 40px;
+        margin-bottom: 5px;
+        width: 40px;
+    
+}
+.myprofile-header span.myprofile-username{
+	margin:15px 125px 0 10px;
+	
+	display:block;
+	float:left;
+	
+}
+#my-message{
+	padding: 10px 0 20px;
+	background:url(../images/myprofile-bg.png) left top repeat-x transparent;
+}
+#my-message .ui-content .ui-listview{
+    margin-left:10px;
+}
+
+/************article***********/
+/**************special height for article.html****************/
+#entire-article #wrapper{
+    height:295px;	
+}
+.entire-article.ui-header.ui-bar-a{
+	border:none;
+	height: 120px;	
+}
+.home-btn{
+	width:41px;
+	height:35px;
+	border:none;
+	
+	background:url(../images/home-btn.png) left top no-repeat transparent;
+}
+.back-btn{
+	width:51px;
+	height:35px;
+	border:none;
+	background:url(../images/toolbar-icons.png) 0px -286px no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;	
+}
+.back-btn:hover{
+	background-position: left -327px;
+}
+.small-arrow-btn{
+	width:9px;
+	height:14px;
+	border:none;
+	
+	
+	position: absolute;
+    right: 10px;
+    top: 5.5em;
+	background:url(../images/small-arrow.png) left top no-repeat transparent;
+}
+.article-title{
+	display: block;
+	float:left;
+	margin: 20px 140px 0 10px;
+	text-shadow: none;
+	color:#000;
+	font-size:18px;
+}
+.article-title-container{
+	width:327px;
+	height:67px;
+    padding:0px 10px;
+    clear:both;
+	background:url(../images/article-title-bg.png) left top no-repeat transparent;
+	background-size: 327px 67px;
+}
+#entire-article #wrapper{
+	margin-top:-10px;
+	background: none repeat scroll 0 0 #EBEDF1;
+}
+.article-body{
+	padding:10px;
+	background: none repeat scroll 0 0 #EBEDF1;
+}
+.article-title-container img{
+	float:left;
+}
+.weibo .ui-header h1.article-header{
+	margin-bottom:18px;
+	margin-top:10px;
+    
+	
+}
+.article-footer-nav .ui-btn-inner{
+	background:url(../images/article-footer-bar-bg.png) left top repeat-x transparent;
+	background-size: auto 51px;
+	height:12px;
+}
+.article-footer-nav .ui-btn{
+	background:none;
+	border:none;
+}
+.article-footer-nav .ui-btn-text{
+	text-shadow: none;
+	color:#575C6B;
+	margin-left: -4px;
+}
+#entire-article .ui-footer{
+	border:none;
+	background:none;
+}
+.article-footer-nav .ui-btn .ui-btn-inner {
+	padding-top: 33px !important;
+	  
+}
+.article-footer-nav .ui-btn .ui-icon {
+	width: 35px !important;
+	height: 26px !important;
+    
+	margin-left: -20px !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important;
+	background: url("../images/article-icons.png") no-repeat transparent;
+	background-size: 35px auto;
+}
+#nav-refresh .ui-icon{
+	background-position: 0px -121px ;
+}
+#nav-refresh .ui-icon:hover{
+	background-position: 0px 0px ;
+	text-decoration: none;
+} 
+#nav-refresh .ui-btn.ui-btn-hover-a{
+	background-position: 0px 0px ;
+	text-decoration: none;
+}
+#nav-comment .ui-icon{
+	background-position: 0px -156px ;
+} 
+#nav-comment .ui-icon:hover{
+	background-position: 0px -38px ;
+	text-decoration: none;
+}  
+#nav-resend .ui-icon{
+	background-position: 0px -194px ;
+}
+#nav-resend .ui-icon:hover{
+	background-position: 0px -79px ;
+	text-decoration: none;
+}
+#nav-fav .ui-icon{
+	background-position: -195px 0px ;
+}
+
+#nav-top .ui-icon{
+	background-position: -260px 0px ;
+}
+/********new weibo***************/
+.send-btn{
+	
+	width:51px;
+	height:35px;
+	border:none;
+	background:url(../images/toolbar-icons.png) 0 -164px no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;
+		
+
+}
+.send-btn:hover{
+	background-position: 0 -206px;
+}
+.loading-btn{	
+	width:51px;
+	height:35px;
+	border:none;
+	background:url(../images/toolbar-icons.png) 0 -247px no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;	
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.ui-header .hidebutton.ui-btn,.hide{
+    display:none;
+}
+.newweibo-footer-nav{
+	border-top:1px solid #cdd0d6
+}
+.newweibo-footer-nav .ui-btn{
+	border:none;
+	background: none no-repeat #EBEDF1;
+}
+.newweibo-footer-nav .ui-btn .ui-btn-inner {
+	padding-top: 33px !important;
+}
+.newweibo-footer-nav .ui-btn-text{
+	color:#575c6b;
+	font-size:12px;
+	text-shadow:none;
+}
+.newweibo-footer-nav a.ui-btn-hover-a,.newweibo-footer-nav a:active,.newweibo-footer-nav a:visited{
+	text-decoration: none;
+}
+.newweibo-footer-nav .ui-btn .ui-icon {
+	width: 35px !important;
+	height: 25px !important;
+    
+	margin-left: -20px !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-border-radius: none !important;
+	border-radius: none !important;
+	background: url(../images/toolbar-icons.png) no-repeat transparent;
+	background-size: 50px auto;	
+	-webkit-background-size: 50px auto;	
+}
+#nav-camera .ui-icon{
+	
+	background-position: -6px -460px;
+}
+#nav-camera .ui-icon:hover{
+	
+	background-position: -7px -370px;
+}
+#nav-photo-library .ui-icon{
+	background-position: -8px -523px;
+}
+#nav-photo-library .ui-icon:hover{
+	background-position: -6px -435px;
+}
+#nav-newweibo-topic .ui-icon{
+	background-position: -8px -493px ;
+} 
+#nav-newweibo-topic .ui-icon:hover{
+	background-position: -8px -403px;
+}  
+#nav-at .ui-icon{
+	background-position: -6px -552px;
+}
+#nav-at .ui-icon:hover{
+	background-position: -6px -612px;
+}
+
+.new-weibo-content textarea.ui-input-text{
+	width:320px;
+	height:350px;
+	border:none;
+	border-radius:0;
+	-webkit-box-shadow:none;
+}
+.new-weibo-content p{
+    float:right;
+}
+.weibo.newweibo .ui-header h1.article-header{
+     margin-left: 110px;
+}
+#uploadedPicture {
+    bottom: 60px;
+    left: 263px;
+    position: absolute;
+    border-radius:5px;
+}
+/*****topic********/
+#my-topic .ui-controlgroup, fieldset.ui-controlgroup,#top-topic .ui-controlgroup, fieldset.ui-controlgroup,#active-topic .ui-controlgroup, fieldset.ui-controlgroup{
+    margin: 0 120px;
+}
+#my-topic .ui-listview-filter {
+	margin:0px;
+}
+/********more*******/
+.function-list{
+	width:308px;
+	height:95px;
+	 margin-left: 5px;
+	background: url(../images/field-bg.png) no-repeat transparent;
+}
+.function-list-container.ui-body-c{
+	background: none;
+}
+.function-list .funciton-list-item{
+	display: block;
+	width:308px;
+	height:27px;
+	padding: 20px 0 0 45px;
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#logout-btn {
+	background: url("../images/logout-btn.png") 15px 18px  no-repeat transparent;
+	border: none;
+	-webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
+	-webkit-box-shadow: none;
+
+}
+#about-btn{
+	background: url("../images/about-btn.png") 15px 18px  no-repeat transparent;
+	border: none;
+	-webkit-border-radius: 0.5em 0.5em 0.5em 0.5em;
+	-webkit-box-shadow: none;
+}
+/***************camera-dialog********************/
+.camera-menu-bg{
+	position: absolute;
+	bottom:0px;
+	background-color: #4F4F4F;
+	opacity:0.5;
+	width:320px;
+	height:200px;
+}
+.camera-menu{
+	position: absolute;
+	bottom:0px;
+	background-color: transparent;
+	width:320px;
+}
+/*********************ajax mask********************/
+.ajax-message-bg{
+    width:120px;
+    height:120px;
+    border-radius: 20px;
+    background-color:black;
+    opacity:0.5;
+}
+.ajax-message{
+    height: 120px;    
+    position: absolute;
+    top: 0px;
+    width: 120px; 
+    /*
+    line-height:120px;
+    overflow:hidden; */
+    display: table-cell;
+    vertical-align: middle;
+}
+.ajax-message img{
+    width:32px;
+    
+}
+.ajax-message p{
+    color:#FFF;
+    text-shadow:none;
+    text-align:center;
+}
+.ajax-message .container{
+	height: 32px; 
+	width: 32px; 
+	margin: 30px auto 10px; 
+	position: relative;
+}
+.mask{
+	left: 110px;
+    position: absolute;
+    top: 150px;	
+}
+#pic-mask{
+    width:320px;
+    height:455px;
+    -webkit-border-radius:5%;
+    background-color:black;
+    opacity:0.9;
+    position: absolute;
+    z-index:300;
+    top:10px;
+    left:0px;
+    line-height:455px;
+
+}
+#pic-mask img{
+    top:20px;
+    max-width:300px;
+    max-height:440px;
+    vertical-align:middle;
+}
+#close-btn{
+    background-image: url("../images/close.png");
+    height: 30px;
+    left: 300px;
+    position: absolute;
+    top: -10px;
+    left:295px;
+    width: 30px;
+    z-index: 400;
+}
+.topic-list-item{
+	display: block;
+    padding: 0.7em 75px 0.7em 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border: 1px solid #B3B3B3;
+    border-width: 1px 0 0;
+    background: -moz-linear-gradient(center top , #EEEEEE, #DDDDDD) repeat scroll 0 0 #F0F0F0;
+}
+.topic-list-item a{
+	color: #333333;
+}

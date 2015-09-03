@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css-->
+			
+		<link rel="stylesheet" media="" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="resources/css/style.css" type="text/css" />
+		
+	</head>
+	<body class="weibo">
+		<div data-role="page" data-theme="c" id="friends">
+			<div data-role="header">
+                
+				<div data-role="controlgroup" data-type="horizontal">
+    				<div class="topbar-center">
+					<h1>我关注的人</h1>
+                    </div>
+    			</div>
+			</div><!-- /header -->
+                
+                <div data-role="content"> 
+                	<div id='wrapper'> 
+                		<div id='scroller'>  			
+                            <ul data-role="listview" data-theme="c"  id="friendslist">
+					
+					
+                            </ul>
+				</div></div>
+                </div><!-- /content -->	
+            <div class="mask">
+                <div class="ajax-message-bg"></div>
+                <!--定位用的,覆盖在上一层上-->
+                <div class="ajax-message">
+                    <!--这一层要水平垂直居中-->
+                    <div class="container"><img src="resources/images/ajax-loader.gif"/></div>
+                    <p>正在刷新</p>
+                </div>
+            </div>
+		</div><!-- /page -->
+	</body>
+</html>

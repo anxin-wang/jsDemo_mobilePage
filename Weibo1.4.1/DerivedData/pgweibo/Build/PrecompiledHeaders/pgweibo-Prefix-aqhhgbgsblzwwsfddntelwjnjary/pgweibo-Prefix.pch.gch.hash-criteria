@@ -1,0 +1,22 @@
+Contents of /Users/ouyotsubakuro/Works/pgweibo/pgweibo/pgweibo-Prefix.pch
+4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2377.00)
+arm-apple-darwin10
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-pipe
+-std=gnu99
+-fpascal-strings
+-O0
+-DPHONEGAP_FRAMEWORK=YES
+-isysroot
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+-gdwarf-2
+-mthumb
+-miphoneos-version-min=3.0
+-I/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphoneos/include
+-F/Users/ouyotsubakuro/Works/pgweibo/DerivedData/pgweibo/Build/Products/Debug-iphoneos
+-F/Users/Shared/PhoneGap/Frameworks
+SDK_PRODUCT_BUILD_VERSION=9A334

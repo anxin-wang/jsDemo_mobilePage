@@ -1,0 +1,251 @@
+/******General CSS********/
+.ui-content {
+	padding: 0px;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}
+a {
+	display: block;
+	text-decoration: none;
+	position: absolute;
+}
+.ui-body-c {
+	background: none;
+}
+#page-tools {
+	width: 1024px;
+	height: 768px;
+}
+#tooltip {
+	background-image: linear-gradient(bottom, rgb(211,233,249) 20%, rgb(254,254,255) 78%);
+	background-image: -o-linear-gradient(bottom, rgb(211,233,249) 20%, rgb(254,254,255) 78%);
+	background-image: -moz-linear-gradient(bottom, rgb(211,233,249) 20%, rgb(254,254,255) 78%);
+	background-image: -webkit-linear-gradient(bottom, rgb(211,233,249) 20%, rgb(254,254,255) 78%);
+	background-image: -ms-linear-gradient(bottom, rgb(211,233,249) 20%, rgb(254,254,255) 78%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.2, rgb(211,233,249)),
+	color-stop(0.78, rgb(254,254,255))
+	);
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 128, 255, 0.53);
+	-moz-box-shadow: 0px 0px 12px rgba(0, 128, 255, 0.53);
+	box-shadow: 0px 0px 12px rgba(0, 128, 255, 0.53);
+	display: none;
+	left: 50px;
+	position: absolute;
+	top: 100px;
+	width: 900px;
+	z-index: 999;
+	border-radius: 10px;
+	border: #004ea2 2px solid;
+	height: 0px;
+	-webkit-transition-property: height;
+	-moz-transition-property: height;
+	-o-transition-property: height;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	white-space: pre-wrap;
+	overflow: hidden;
+}
+#line-27,#line-25{
+	position: absolute;
+	background-repeat: no-repeat;
+	-webkit-transition-property: width;
+	-moz-transition-property: width;
+	-o-transition-property: width;
+	-webkit-transition-duration: 5s;
+	-moz-transition-duration:5s;
+	-o-transition-duration: 5s;
+	-webkit-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	overflow:hidden;
+}
+#line-25 {	
+	top: 625px;
+	left: 155px;
+	width: 0px;
+	height: 28px;	
+	background-image: url(../images/line-025.png);	
+}
+#line-27 {	
+	top: 496px;
+	left: 130px;
+	width: 0px;
+	height: 48px;
+	background-image: url(../images/line-027.png);	
+}
+#arrow-20,#pie-20,#line-20,#number-20,#swipe-mask{
+	position: absolute;
+}
+#arrow-20{
+	background-image:url(../images/arrow.png);
+	height: 37px;
+    left: 722px;
+    top: 585px;
+    width: 49px;
+}
+#pie-20{
+	background-image:url(../images/pie-20.png);
+	height: 336px;
+    left: 522px;
+    top: 315px;
+    width: 245px;
+    display:none;
+}
+#line-20{
+	background-image:url(../images/line-20.png);
+	height: 76px;
+    left: 382px;
+    top: 415px;
+    width: 225px;
+    display:none;
+}
+#number-20{
+	background-image:url(../images/word-20.png);
+	height: 35px;
+    left: 647px;
+    top: 265px;
+    width: 110px;
+    background-size:contain;
+    -webkit-background-size: contain;
+    display:none;
+}
+#swipe-mask{
+	background-color:transparent;
+	height: 340px;
+    left: 527px;
+    top: 310px;
+    width: 329px;
+}
+#tooltip img {
+	height: auto;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	width: auto;
+}
+#tooltip p {
+	color: #004ea2;
+	margin: 0px;
+	padding: 20px 30px;
+	font-size: 20px;
+	width: 850px;
+	font-style: italic;
+	font-family: Times;
+	line-height: 30px;
+}
+#tooltip p span {
+	font-style: normal;
+	font-weight: bold;
+}
+#mask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 768px;
+	width: 1024px;
+	display: none;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 888;
+}
+.doc-link {
+	position: relative;
+	padding: 10px;
+	font-size: 40px;
+	line-height: 100px;
+}
+.doc-link-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.doc-link-documents {
+	padding: 10px;
+	font-size: 40px;
+	line-height: 100px;
+}
+.doc-small-link {
+	position: relative;
+	padding: 10px;
+}
+.reference {
+	height: 30px;
+	width: 50px;
+}
+.page {
+	background: url(../images/material-bg.png) transparent top left no-repeat;
+	width: 1024px;
+}
+.page ul {
+	width: 800px;
+	margin-top: 200px;
+	list-style: none;
+	margin-left: 150px;
+}
+video {
+	padding-left: 100px;
+	padding-top: 180px;
+}
+#test {
+	left: 190px;
+	top: 170px;
+}
+#edetailing {
+	height: 160px;
+	left: 190px;
+	top: 170px;
+	width: 120px;
+}
+.chest {
+	height: 190px;
+	left: 230px;
+	top: 220px;
+	width: 190px;
+}
+.blood {
+	height: 190px;
+	left: 600px;
+	top: 220px;
+	width: 190px;
+}
+#video {
+	height: 160px;
+	left: 460px;
+	top: 380px;
+	width: 120px;
+}
+#ppt {
+	height: 160px;
+	left: 450px;
+	top: 170px;
+	width: 120px;
+}
+#doc {
+	height: 160px;
+	left: 720px;
+	top: 170px;
+	width: 120px;
+}
+#instruction {
+	height: 160px;
+	left: 200px;
+	top: 380px;
+	width: 120px;
+}
+#tools {
+	height: 160px;
+	left: 720px;
+	top: 380px;
+	width: 120px;
+}
+

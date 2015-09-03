@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="resources/css/style.css" type="text/css" />	-->
+		<link rel="stylesheet" media="" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="resources/css/style.css" type="text/css" />
+		
+	</head>
+	<body class="weibo newweibo" >
+	<div data-role="page" id="newweibo">
+
+        <div data-role="header">
+				<a data-role="button" class="back-btn" data-rel="back" ></a>
+				
+				<h1 class="article-header">发表新微博</h1>
+					
+                <a data-role="button" class="send-btn"></a>
+                <a data-role="button" class="hidebutton loading-btn"></a>
+			</div><!-- /header -->
+			
+			<div data-role="content" class="new-weibo-content">
+                <textarea name="content" rows="8" cols="40" id="content"></textarea>
+
+                <img src="" id="uploadedPicture" width="50" height="50"/>
+            </div>
+			<div data-role="footer" id="newweibofooter">
+					<div data-role="navbar" class="newweibo-footer-nav">
+						<ul>
+							<li class="newweibo-nav">
+								<a href="#" id="nav-camera" data-transition="slideup" data-rel="dialog" data-inline="true" data-icon="custom">拍照</a>
+							</li>
+							<li class="newweibo-nav">
+								<a href="#" id="nav-photo-library" data-icon="custom"  rel="external">相册</a>
+							</li>
+							<li class="newweibo-nav">
+								<a href="#" id="nav-newweibo-topic" data-icon="custom"  rel="external">话题</a>
+							</li>
+							<li class="newweibo-nav">
+								<a href="#" id="nav-at" data-icon="custom"  rel="external">召唤</a>
+							</li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+		<div class="camera-menu-container">
+        <div class="camera-menu-bg"></div>
+            <div class="camera-menu">
+            	<a data-theme="a" data-transition="slidedown"  data-role="button" id="capture-image">拍照</a>  
+            	<a data-theme="a" data-transition="slidedown"  data-role="button" id="choose-image">从照片库中选择</a>  
+                <a data-theme="a" data-transition="slidedown"  data-role="button" id="cancel">取消</a>  
+            </div>
+            </div>
+        <div class="mask">
+            <div class="ajax-message-bg"></div>
+            <!--定位用的,覆盖在上一层上-->
+            <div class="ajax-message">
+                <!--这一层要水平垂直居中-->
+                <div class="container"><img src="resources/images/ajax-loader.gif"/></div>
+                <p>正在刷新</p>
+            </div>
+        </div>
+</div><!-- /page -->
+
+	</body>
+</html>

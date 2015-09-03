@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'pgweibo' target in the 'pgweibo' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

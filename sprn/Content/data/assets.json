@@ -1,0 +1,30 @@
+{
+"presentation": {
+    "settings": {
+        "topNavTouchZone": {
+            "x":0,
+            "y":0,
+            "width":75,
+            "height":35
+        },
+        "usesBottomNav":"false",
+        "scrolling":"true",
+        "zooming":"true",
+        "bottomNavTouchZone": {
+            "x":0,
+            "y":713,
+            "width":75,
+            "height":35
+        }
+    
+    },
+	"assets": [
+        {
+          "label": "Home",
+          "thumbnail": "presentation_icon.png",
+          "anchorPath": "./index.html",
+          "type": "html"
+        }
+     ]
+  }
+}

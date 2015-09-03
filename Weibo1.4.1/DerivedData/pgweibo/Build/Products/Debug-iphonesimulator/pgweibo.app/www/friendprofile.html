@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="resources/css/style.css" type="text/css" />	-->
+		<link rel="stylesheet" media="" href="javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.css" type="text/css" />
+		<link rel="stylesheet" media="" href="resources/css/style.css" type="text/css" />
+				
+	</head>
+	<body >
+	<div data-role="page" class="weibo" id="friendprofile">
+
+        <div data-role="header">
+				
+				
+					<h1 class="profile-h1"></h1>
+					
+				
+                <!--<a data-role="button" class="refresh-btn ui-btn-right"></a>-->
+			</div><!-- /header -->
+
+        <div data-role="content"> 
+               <div class="myprofile-header">
+               	<img src=""/>
+               	<span class="myprofile-username"></span>
+               	 <!--<a data-role="button" class="edit-profile-btn"></a>-->
+               </div>      
+               <div id="my-message">
+               	<ul data-role="listview" data-theme="c" id="myprofile-list" >
+					
+				</ul>
+					<table id="my-profile-table">
+               		<tr><td><p id="myprofile-follows" class="myprofile-table-number"></p><p  class="category">关注</p></td><td><p id="myprofile-tweets" class="myprofile-table-number"></p><p class="category">微博</p></td></tr>
+               		<tr><td><p id="myprofile-fans" class="myprofile-table-number"></p><p  class="category">粉丝</td><td><p id="myprofile-topic" class="myprofile-table-number">0</p><p class="category">话题</p></td></tr>
+               	</table>
+               </div>     
+               
+        </div><!-- /content -->
+
+        <div data-role="footer">
+					<div data-role="navbar" class="footer-nav">
+						<ul>
+							<li>
+								<a href="home.html" id="nav-home" class="nav-home" data-icon="custom" data-transition="fade">首页</a>
+							</li>
+							<li>
+								<a href="message.html" id="nav-message" class="nav-message" data-icon="custom" data-transition="fade">消息</a>
+							</li>
+							<li>
+								<a href="profile.html" id="nav-profile" class="nav-profile selected" data-icon="custom" data-transition="fade">我的资料</a>
+							</li>
+							<!--<li>
+								<a href="topic.html" id="nav-topic" class="nav-topic" data-icon="custom"  rel="external">话题</a>
+							</li>-->
+							<li>
+								<a href="#" id="nav-more" class="nav-more" data-icon="custom" data-transition="fade">更多</a>
+							</li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+        <div class="mask">
+            <div class="ajax-message-bg"></div>
+            <!--定位用的,覆盖在上一层上-->
+            <div class="ajax-message">
+                <!--这一层要水平垂直居中-->
+                <div class="container"><img src="resources/images/ajax-loader.gif"/></div>
+                <p>正在刷新</p>
+            </div>
+        </div>
+</div><!-- /page -->
+
+	</body>
+</html>
