@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- iPad/iPhone specific css below, add after your main css >
+		<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="stylesheets/ipad.css" type="text/css" />	-->
+		<link rel="stylesheet"  href="resources/stylesheet/jquery.mobile-1.0b2.min.css" type="text/css" />
+		<link rel="stylesheet"  href="resources/stylesheet/index.css" type="text/css" />
+		<!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+		<script src="./javascript/lib/jquery-1.6.2.js"></script>
+		<script src="./javascript/lib/jquery.mobile-1.0b2/jquery.mobile-1.0b2.min.js"></script>
+		<script src="javascript/custom/index.js"></script>
+	</head>
+	<body>
+		<!-- index page -->
+		<div data-role="page" id="page-index">
+			<div data-role="content">
+				<div class="background" width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/index.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"/>
+				<a href="#page-index-branch" id="edetailing"></a>
+				<a href="#page-ppt" id="ppt"></a>
+				<a href="#page-doc-index" id="doc"></a>
+				<a href="#page-instruction" id="instruction"></a>
+				<a href="#page-video" id="video"></a>
+				<a href="#page-tools" id="tools"></a>
+			</div>
+		</div>
+		</div> <!--index page上的链接页面：幻灯片-->
+		<div data-role="page" id="page-ppt" class="page">
+			<div data-role="content">
+				<ul>
+					<li>
+						<a href="iBD:showPdfViewer:/media/pdf/001.pdf:斯皮仁诺-2012POA-呼吸科幻灯" class="doc-link">斯皮仁诺-2012POA-呼吸科幻灯</a>
+					</li>
+					<li>
+						<a href="iBD:showPdfViewer:/media/pdf/002.pdf:斯皮仁诺-2012POA-血液科幻灯" class="doc-link">斯皮仁诺-2012POA-血液科幻灯</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--index page上的链接页面：说明书-->
+		<div data-role="page" id="page-instruction" class="page">
+			<div data-role="content">
+				<ul>
+					<li>
+						<a href="iBD:showPdfViewer:/media/pdf/003.pdf:斯皮仁诺注射液说明书20100104" title="斯皮仁诺注射液说明书20100104" class="doc-link">斯皮仁诺注射液说明书20100104</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--index page上的链接页面：视频-->
+		<div data-role="page" id="page-video" class="page">
+			<div data-role="content">
+				<video autoplay=false width="785" height="480" src="media/video/SPO.m4v" preload=true controls=true>
+			</div>
+		</div>
+		<!--index page上的链接页面：管理工具-->
+		<div data-role="page" id="page-tools" class="page">
+			<div data-role="content">
+				<ul>
+					<li>
+						<a href="iBD:showPdfViewer:/media/pdf/004.pdf:斯皮仁诺2012POA 产品QA" title="斯皮仁诺2012POA 产品QA" class="doc-link">斯皮仁诺2012POA 产品QA</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--eDetailing内页，touch select页面-->
+		<div data-role="page" id="page-index-branch">
+			<div data-role="content">
+				<div class="background" width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/index-branch.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<a href="#page000" class="chest"></a>
+				<a href="#page019" class="blood"></a>
+			</div>
+		
+		</div>
+		
+		<!--index page上的链接页面：文献-->
+		<div data-role="page" id="page-doc-index">
+			<div data-role="content">
+				<div class="background" width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/index-branch.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<a href="#page033" class="chest"></a>
+				<a href="#page037" class="blood"></a>
+			</div>
+		</div>
+		<div data-role="page" id="page033">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/033.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/033/001.pdf:Mycoses. 1989;32( Suppl 1)67-87" style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/033/002.pdf:Journal of Antimicrobial Chemotherapy 2005;56(Suppl. S1), i17–i22" style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/033/003.pdf:Developrnenr and Evoluution of Antifungal Agenrts.1987;P.223-249" style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/033/004.pdf:Journal of Antimicrobial Chemotherapy 2000; 45(3)371–373." style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/033/005.pdf:Antimicrob Agents Chemother. 1997 ;41(11)2554-8." style="top:510px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/033/006.pdf:Antimicrob Agents Chemother. 2008 Jan;52(1)24-36." style="top:600px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+			     </div>
+			</div>
+		</div>
+		<div data-role="page" id="page034">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/034.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/034/001.pdf:Antimicrob Agents Chemother. 1993 Apr;37(4)903-4." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/034/002.pdf:Clin Microbiol Rev. 2009 Jul;22(3)447-65." style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/034/003.pdf:Br J Haematol. 2005 Jun;129(5)569-82." style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/034/004.pdf:Antimicrob Agents Chemother. 2004 Oct;48(10)3823-7" style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/034/005.pdf:Mycoses. 1999;42(11-12)591-600." style="top:510px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/034/006.pdf:Mycoses. 1999;42(7-8)443-51." style="top:600px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+			     </div>
+			</div>
+		</div>
+		<div data-role="page" id="page035">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/035.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/035/001.pdf:J Clin Pharm Ther. 2009 Jun;34(3)337-44." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/035/002.pdf:Clin Infect Dis. 2001 Oct 15;33(8)e83-90." style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/035/003.pdf:Acta Haematol. 2003;109(3)111-8" style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/035/004.pdf:Chinese Med J (Engl). 2011 Oct;124(20)3415-3419" style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/035/005.pdf:Antimicrob Agents Chemother. 2006 Mar;50(3)917-21." style="top:510px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/035/006.pdf:J Clin Microbiol. 2010 Nov;48(11)4115-20." style="top:600px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+			     </div>
+			</div>
+		</div>
+		<div data-role="page" id="page036">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/036.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/036/001.pdf:J Clin Microbiol. 2009 Oct;47(10)3271-5." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/036/002.pdf:J Clin Microbiol. 2011 Feb;49(2)586-90." style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/036/003.pdf:Antimicrob Agents Chemother. 2007 Jul;51(7)2587-90." style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/036/004.pdf:Antimicrob Agents Chemother. 2008 Oct;52(10)3637-41." style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				</div>
+			</div>
+		</div>
+		<div data-role="page" id="page037">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/037.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/037/001.pdf:Haematologica .2006; 91(8)1068-1075." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/037/002.pdf:haematologica. 2004; 89(2) 207-214" style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/037/003.pdf:Hematology Am Soc Hematol Educ Program. 2003;438-72." style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/037/004.pdf:J Clin Microbiol. 2009 Oct;47(10)3271-5." style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/037/005.pdf:J Clin Microbiol. 2011 Dec;49(12)4158-63." style="top:510px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/037/006.pdf:J Clin Microbiol. 2010 Nov;48(11)4115-20." style="top:600px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+			     </div>
+			</div>
+		</div>
+		<div data-role="page" id="page038">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/038.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/038/001.pdf:Antimicrob Agents Chemother. 2008 Oct;52(10)3637-41." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/038/002.pdf:Journal of Clinical Pharmacy and Therapeutics. 2001; 26, 159-169" style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/038/003.pdf:Antimicrobial Agents And Chemotherapy, Oct. 2004, p. 3823–3827" style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/038/004.pdf:mycoses. 2000; 43, 125–127" style="top:420px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/038/005.pdf:J Infect Chemother .2006; 12：355–362" style="top:510px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/038/006.pdf:Antimicrobial Agents And Chemotherapy. 2001; 45：981–985" style="top:600px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+			     </div>
+			</div>
+		</div>
+		<div data-role="page" id="page039">
+			<div data-role="content">
+				<div width="1024" height="768" style="width:1024px;height:768px;background-image:url(resources/images/jpg/039.png);background-repeat: no-repeat;-webkit-background-size:100%;background-size:100%;"></div>
+				<div class="doc-link-container">
+				<a href="iBD:showPdfViewer:/media/doc/039/001.pdf:Journal of Clinical Pharmacy and Therapeutics .2009; 34 337–344." style="top:140px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/039/002.pdf:Chin Med J .2011;124(22)3670-3675." style="top:240px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				<a href="iBD:showPdfViewer:/media/doc/039/003.pdf:Chinese Medical Journal. 2011;124(20)3415-3419" style="top:320px;left:100px;width:800px;height:60px;" class="doc-link-documents"></a>
+				 </div>
+			</div>
+		</div>
+		<div id="mask"></div>
+		<div id="tooltip"><p><span></span></p><img src=""/></div>
+	</body>
+</html>

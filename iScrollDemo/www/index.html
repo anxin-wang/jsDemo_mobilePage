@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>iScroll demo: Carousel</title>
+
+<script type="text/javascript" src="../../src/iscroll.js"></script>
+
+<script type="text/javascript">
+var myScroll;
+
+function loaded() {
+	myScroll = new iScroll('wrapper', {
+		snap: true,
+		momentum: false,
+		hScrollbar: false,
+		onScrollEnd: function () {
+			document.querySelector('#indicator > li.active').className = '';
+			document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
+		}
+	 });
+}
+
+document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+
+
+</head>
+<body>
+<a href="examples/carousel/index.html">carousel</a>
+<a href="examples/check-dom-changes/index.html">check-dom-changes</a><br/>
+<a href="examples/custom-scrollbar/index.html">custom-scrollbar</a>
+<a href="examples/ender/index.html">ender</a><br/>
+<a href="examples/form-fields/index.html">form-fields</a><br/>
+<a href="examples/horizontal-scroll/index.html">horizontal-scroll</a><br/>
+<a href="examples/hover/index.html">hover</a><br/>
+<a href="examples/ios-perfect-scrollbar/index.html">ios-perfect-scrollbar</a><br/>
+<a href="examples/ipad/index.html">ipad</a><br/>
+<a href="examples/lite/index.html">lite</a><br/>
+<a href="examples/pull-to-refresh/index.html">pull-to-refresh</a><br/>
+<a href="examples/simple/index.html">simple</a><br/>
+<a href="examples/snap-to-element/index.html">snap-to-element</a><br/>
+<a href="examples/use-transition/index.html">use-transition</a><br/>
+<a href="examples/zoom/index.html">zoom</a><br/>
+myDemo<br/>
+<a href="myExamples/zoom/zoom.html">zoom</a><br/>
+<a href="myExamples/iscroll/iscroll.html">iscroll</a><br/>
+</body>
+</html>
