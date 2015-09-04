@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<title>礼包掉不停，合力幸福享</title>
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+
+<body onLoad="load()">
+
+	<div id="loading">
+		<p>加载中，请稍后</p>
+	</div>
+
+	<div id="landscape">
+		<p> 请切换到竖屏模式 </p>
+	</div>
+
+	<div class="page-main yellow">
+		<div class="page-2">
+			<div class="page-2-main"></div>
+			<div class="page-2-btn">
+				<button ontouchend="$('.popup-user').fadeIn();">再去抢点钱</button>
+			</div>
+		</div>
+		<div class="page-logo"></div>
+	</div>
+
+	<div class="popup-user">
+		<div class="popup-user-main">
+			<h3>向钱看</h3>
+			<div id="popup-user-login">
+				<p><a href="#" id="popup-user-login-btn">注册新用户</a></p>
+				<dl style="margin-top:22px;">
+					<dt>手机号</dt>
+					<dd><input type="tel"></dd>
+				</dl>
+				<dl>
+					<dt>密码</dt>
+					<dd><input type="password"></dd>
+				</dl>
+				<div class="popup-user-main-btn">
+					<button class="red">立即登录</button>
+					<button class="green">关注合力贷</button>
+				</div>
+			</div>
+			<div id="popup-user-reg">
+				<p><a href="#" id="popup-user-reg-btn">已有账户登录</a></p>
+				<dl style="margin-top:6px;">
+					<dt>手机号</dt>
+					<dd><input type="tel"></dd>
+				</dl>
+				<dl>
+					<dt>验证码</dt>
+					<dd><input type="text" style="width:104px;"><a href="#">重发</a></dd>
+				</dl>
+				<dl>
+					<dt>密码</dt>
+					<dd><input type="password"></dd>
+				</dl>
+				<div class="popup-user-main-btn">
+					<button class="red">立即注册</button>
+					<button class="green">关注合力贷</button>
+				</div>
+			</div>
+			<a href="#" class="popup-user-main-close">×</a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/page.js"></script>
+
+</body>
+</html>

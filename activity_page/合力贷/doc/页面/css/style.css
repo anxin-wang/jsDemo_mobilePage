@@ -1,0 +1,87 @@
+*{margin:0;padding:0;}
+
+html,
+body { width: 100%; height: 100%; overflow: hidden; font-family: Arial; background: #edd425 url(../img/p-play-bg.jpg) 0 0 no-repeat; background-size: 100% auto;}
+
+@media all and (orientation : landscape) {
+	#landscape { display: block;}
+}
+@media all and (orientation : portrait) {
+	#landscape { display: none;}
+}
+
+#loading,
+#landscape { position: absolute; width: 100%; height: 100%; z-index: 10000; top: 0; background-color: #3bb893;}
+#loading p,
+#landscape p { position: absolute; width: 100%; text-align: center; top: 50%; margin-top: -20px; font-size: 14px; color: #fff; height: 40px; line-height: 40px;}
+#landscape p { background: url(../img/landscape.png) 0 50% no-repeat; background-size: 30px auto; -webkit-background-size: 30px auto; width: 120px; padding-left: 30px; left: 50%; margin-left: -75px;}
+
+.cardBox { position: relative; color: #000; margin: 0 auto;}
+
+.strBj1,
+.strBj2,
+.strBj3 { width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 15;}
+
+.strBj1 { background-color: #fdfa1f;}
+.strBj2 { background-color: #3bb893; display: none;}
+.strBj1 div { display: block; width: 320px; height: 420px; margin: 0 auto; background: url(../img/p-index-banner.png) 0 0 no-repeat; background-size: 100% auto;}
+.strBj2 div { display: block; width: 320px; height: 420px; margin: 0 auto; background: url(../img/p-rule-banner.png) 0 0 no-repeat; background-size: 100% auto;}
+@media screen and (max-height: 490px) {
+	.strBj1 div,
+	.strBj2 div { width: 280px; height: 368px;}
+}
+
+.strBj1 div p { position: absolute; width: 176px; height: 40px; background: url(../img/p-index-button.png) 0 0 no-repeat; background-size: 100% auto; bottom: 43px; left: 50%; margin-left: -88px; font-size: 0; text-indent: -10000em;}
+.strBj2 div p { position: absolute; width: 176px; height: 40px; background: url(../img/p-rule-button.png) 0 0 no-repeat; background-size: 100% auto; bottom: 43px; left: 50%; margin-left: -88px; font-size: 0; text-indent: -10000em;}
+
+.strBj1 span,
+.strBj2 span { position: absolute; display: block; width: 70px; height: 22px; background: url(../img/p-logo.png) 0 0 no-repeat; background-size: 100% auto; bottom: 10px; left: 50%; margin-left: -35px;}
+
+.godCard { position: absolute;}
+.godCard { width: 96px; height: 58px; bottom: 0; cursor: move; position: fixed; z-index: 13;}
+.godCard img { position: absolute; left: -27px; bottom: 0;}
+
+.score { position: fixed; display: block; width: 123px; height: 32px; padding-left: 10px; font-size: 15px; text-align: left; color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); background: url(../img/p-play-score.png) 0 0 no-repeat; background-size: 100% auto; top: 12%; left: 50%; margin-left: -32px; line-height: 32px;}
+
+.fenshu { position: fixed; z-index: 14; left: 50%; bottom: 67px; width: 320px; height: 33px; margin-left: -160px;}
+.fenshu .pointer { display: none; position: absolute; z-index: 20; top: 0; left: 20px;
+	animation: pointer 2s infinite linear;
+	-webkit-animation: pointer 2s infinite linear;}
+
+@keyframes pointer {
+	0%   { left: 20px;}
+	50%  { left: 270px;}
+	100% { left: 20px;}
+}
+@-webkit-keyframes pointer {
+	0%   { left: 20px;}
+	50%  { left: 270px;}
+	100% { left: 20px;}
+}
+
+.daojishi { position: fixed; top: 12%; left: 50%; width: 56px; height: 32px; padding-left: 10px; font-size: 15px; text-align: left; color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5); background: url(../img/p-play-sec.png) no-repeat; background-size: 100% auto; line-height: 32px; margin-left: -100px;}
+
+.topjifen { position: fixed; top: 50px; opacity: 0; z-index: 13; width: 200px; left: 50%; margin-left: -100px;}
+.topjifen span { display: block; color: #f4153f; font-size: 20px; width: 100%; text-align: center;}
+
+#div_1 { width: 100%; height: 100%; z-index: 1; overflow: hidden;}
+#div_1 img { position: absolute; z-index: 10; width: 80px; height: 80px;}
+
+.endGame { display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; text-align: center; color: #fff; background-color: #3bb893;}
+.endGameSpan0 { position: absolute; display: block; width: 320px; height: 330px; top: 0; left: 50%; margin-left: -160px; background: url(../img/p-end-bg.png) 0 0 no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto;}
+.endGameSpan0 i { display: block; font-style: normal; font-size: 14px; color: #5c474c; line-height: 40px; padding-top: 160px;}
+.endGameSpan0 i strong { font-size: 36px; font-weight: bold; padding-right: 10px; vertical-align: middle;}
+
+.endGameSpan1,
+.endGameSpan2,
+.endGameSpan3 { position: absolute; display: block; width: 176px; height: 40px; font-size: 0; text-indent: -10000em; left: 50%; margin-left: -88px;}
+
+.endGameSpan1 { background: url(../img/p-end-button-1.png) 0 0 no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto; top: 250px;}
+
+.endGameSpan2 { background: url(../img/p-end-button-2.png) 0 0 no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto; bottom: 43px;}
+
+.endGameSpan3 { background: url(../img/p-end-button-3.png) 0 0 no-repeat; background-size: 100% auto; -webkit-background-size: 100% auto; bottom: 93px;}
+
+.endGameSpan4 { position: absolute; display: block; width: 70px; height: 22px; background: url(../img/p-logo.png) 0 0 no-repeat; background-size: 100% auto; bottom: 10px; left: 50%; margin-left: -35px;}
+
+body.page { background: transparent;}

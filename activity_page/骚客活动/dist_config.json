@@ -1,0 +1,19 @@
+{
+  "dir": {
+    "css": "E:/project/webCodoon/new_codoon_dev/static_root/css/activity/duma",
+    "js": "E:/project/webCodoon/new_codoon_dev/static_root/js/activity/duma"
+  },
+  "path": [
+    {"\\.\/js\/": "{{MEDIA_URL}}/js/activity/duma/"},
+    {"\\.\/css\/": "{{MEDIA_URL}}/css/activity/duma/"},
+    {"\\.\/image\/": "{{MEDIA_URL}}/image/activity/duma/"}
+  ],
+  "file": {
+    "index2.html": "E:/project/webCodoon/new_codoon_dev/www/templates/activity/duma/index2.html",
+    "index.html": "E:/project/webCodoon/new_codoon_dev/www/templates/activity/duma/index.html",
+    "share.html": "E:/project/webCodoon/new_codoon_dev/www/templates/activity/duma/share.html"
+  },
+  "copy": {
+    "image": "E:/project/webCodoon/new_codoon_dev/static_root/image/activity/duma"
+  }
+}

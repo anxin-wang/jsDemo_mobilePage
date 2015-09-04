@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<title>金币掉不停 合力贷你赢</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css?2015021201">
+	<style type="text/css">
+		@media all and (orientation : landscape) {
+			#landscape { display: none;}
+		}
+		@media all and (orientation : portrait) {
+			#landscape { display: none;}
+		}
+	</style>
+</head>
+
+<body onLoad="load()">
+
+	<div id="loading">
+		<p>加载中，请稍后</p>
+	</div>
+
+	<div id="landscape">
+		<p> 请切换到竖屏模式 </p>
+	</div>
+
+	<div class="page-main green">
+		<div class="page-1">
+			<div class="page-1-main">
+				<p class="no-data">你还没有好友挑战，赶快去邀请小伙伴吧</p>
+				<ul class="height-2 animated">
+					<!-- <li fopenid="test">
+						<span class="user">用户昵称</span>
+						<span class="result">超越了你</span>
+						<span class="btn">
+							<button class="btn-challenge" ontouchend="window.location.href='challenge.html'">挑战</button>
+							<button class="btn-give">赠送</button>
+						</span>
+					</li> -->
+				</ul>
+				<div class="page-1-main-btn">
+					<button class="btn-1" ontouchend="window.location.href='my_helloan.html'">我的金币</button>
+				</div>
+			</div>
+			<div class="page-1-btn">
+				<button ontouchend="window.location.href='index.html'">再去抢点钱</button>
+			</div>
+		</div>
+		<div class="page-logo"></div>
+	</div>
+
+	<div class="popup-user">
+		<div class="popup-user-main">
+			<h4>你要向<strong></strong>赠送</h3>
+			<div>
+				<dl style="margin-top:22px;">
+					<dt>合氏币</dt>
+					<dd><input type="number" min="1" id="score-give"></dd>
+				</dl>
+				<div class="popup-user-main-btn">
+					<button class="red" id="btn-popup-give">确认赠送</button>
+				</div>
+			</div>
+			<a href="#" class="popup-user-main-close">×</a>
+		</div>
+	</div>
+
+	<div id="share"></div>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script type="text/javascript" src="js/page.js"></script>
+	<script>
+	$(function(){
+		$.ajax({
+			type: "POST",
+			dataType: "JSON",
+			url: HOST + "/account/challengelog",
+			data: 'debug='+debug,
+			success: function(msg){
+				console.log(msg);
+				if (msg.code == 0) {
+					var data = msg.data;
+					for(var i in data) {
+if (data[i].cmp && data[i].challenged)
+var btn = "<button class='btn-challenge' ontouchend=\"window.location.href='challenge.html?fopenid="+data[i].fopenid+"&cmp_score="+Math.abs(data[i].cmp)+"'\">挑战</button><button class='btn-give'>赠送</button>";
+else 
+var btn = "<button class='btn-give'>赠送</button>";
+						var appendStr = "<li fopenid='"+data[i].fopenid+"' ><span class='user'>"+data[i].fnickname+"</span><span class='result'>"+data[i].desc+"</span><span class='btn'>"+btn+"</span>";
+						$(".height-2").append(appendStr); 
+					}
+				}
+				var length = $('.height-2 li').length;
+				if ( length < 1 ) {
+					$('.no-data').show();
+				} else {
+					$('.no-data').hide();
+				};
+			}
+		});
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,791 @@
+body{
+  /*width: 100%;
+  height: 100%;*/
+  /*overflow: hidden;*/
+  font-family: '微软雅黑','黑体';
+}
+
+.bg {
+	width:416px ;
+	height: 738px;
+	z-index: 0;
+}
+.bg img{
+	width: 100%;
+}
+
+.bgconter{
+    display: none;
+}
+
+.loading{
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 555;
+}
+.loading .block{
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+.loading .block .font{
+    font-size: 24px;
+}
+
+.dotting {
+    display: inline-block;
+    width: 10px;
+    position: relative;
+    top: -5px;
+    min-height: 2px;
+    padding-right: 2px;
+    border-left: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    background-color: currentColor;
+    background-clip: content-box;
+    box-sizing: border-box;
+    -webkit-animation: dot 2s infinite step-start both;
+    animation: dot 2s infinite step-start both;
+}
+.dotting:before { content: '...'; }
+.dotting::before { content: ''; }
+:root .dotting { margin-left: 0px; padding-left: 2px; }
+
+@-webkit-keyframes dot {
+    25% { border-color: transparent; background-color: transparent; }
+    50% { border-right-color: transparent; background-color: transparent; }
+    75% { border-right-color: transparent; }
+}
+@keyframes dot {
+    25% { border-color: transparent; background-color: transparent; }
+    50% { border-right-color: transparent; background-color: transparent; }
+    75% { border-right-color: transparent; }
+}
+
+#pages{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 422px;
+    max-height: 750px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.page{
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0; 
+    overflow: hidden;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+}
+
+.welcome_page{
+    z-index: 1;
+    display: none;
+}
+.welcome_page .logo{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+.welcome_page .slogin{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    opacity: 0;	
+	z-index: 1;
+}
+.welcome_page .slogin img{
+	width: 100%;
+}
+
+/*welcome animate*/
+
+.welcome_page .page1 .slogin.anm{
+  opacity: 1;
+  -webkit-animation: bounceInRight   1s;
+  animation: bounceInRight 1s;
+}
+
+.welcome_page .page2 .slogin.anm{
+  opacity: 1;
+  -webkit-animation: bounceInLeft   1s;
+  animation: bounceInLeft 1s;
+}
+.welcome_page .page3 .slogin.anm{
+  opacity: 1;
+  -webkit-animation: bounceInUp   1s;
+  animation: bounceInUp 1s;
+}
+.welcome_page .page4 .slogin.anm{
+  opacity: 1;
+  -webkit-animation: bounceInUp   1s;
+  animation: bounceInUp 1s;
+}
+
+#wenjuan{
+    top:0;
+    left: 0;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align:center;
+    overflow:hidden;
+    display: none;
+}
+#wenjuan .logo{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    z-index: 2;
+    }
+
+#wenjuan .wenjuanbox{
+    position: relative;
+    z-index: 2;
+}
+
+#wenjuanbox{
+    width: 300px;
+    margin:  20px auto;
+    height:  280px;
+
+}
+#wenjuanbox .page{
+    width: 100%;
+    height: 100%;
+}
+
+#wenjuanbox .page .tit{
+    background: url(../image/wenjuan_titbg.png) center center no-repeat;
+    background-size:95% auto;
+    padding: 20px 0;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+#wenjuanbox .page  ul{
+    text-align: left;
+}
+#wenjuanbox .page  ul li{
+    background: url(../image/wenjuan_libg.png) center center no-repeat;
+    background-size:95% auto; 
+    padding: 10px 0;
+    text-indent: 3em;   
+}
+
+#wenjuanbox .nav{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+}
+#wenjuanbox .nav li{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #c8c8c6;
+    border-radius: 50%;
+    margin: 0 3%;
+}
+#wenjuanbox .nav li.current{
+    background: #ffe115;
+}
+
+#wenjuanbox .page.box4 li{
+    float:left;
+    background: none!important;
+    width: 21%;
+    text-indent: 0;
+    position: relative;
+    margin: 0 2%;
+}
+#wenjuanbox .box4 li img{
+    display: block;
+    width: 100%;
+}
+#wenjuanbox .box4 li span{
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    white-space:nowrap;
+}
+#wenjuanbox .box4 span.input{
+    width: 130px;
+    display: inline-block;
+    background: #99a6bb;
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 12px;
+}
+#wenjuanbox .box4 .bar{
+    margin-top: 6px;
+    position: relative;
+}
+#wenjuanbox .box4 span.reset{
+    display: inline-block;
+    position: absolute;
+}
+#wenjuanbox  .notes{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #fff;
+}
+#wenjuanbox  .reset img{
+    width: 40px;
+    margin-left: 5px;
+}
+#wenjuanbox .box4 li i{
+    display: block;
+    position: absolute;
+}
+#wenjuanbox li.current{
+opacity: 0.5;
+
+}
+
+#wenjuanbox .handon{
+  width: 99px;
+  z-index: 5;
+  left: 50%;
+  bottom: -15px;
+  position: absolute;
+  margin-left: -50px;
+  display: none;
+}
+
+.actIndexNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.actIndexNav .logo{
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+
+.actIndexNav .cot{
+    z-index: 2; 
+    position: relative;
+    width: 90%; 
+    margin:0 auto;
+    margin-top: 2%;
+    display: block;  
+}
+.actIndexNav .cot.inUserblock{
+    width: 100%;
+}
+/*个人中心*/
+.personCenter .logo{
+    z-index: 2px;
+    position: relative;
+    width: 100%;
+}
+.personCenter .blo{
+    background: rgba(255, 255, 255, 0.33);
+    font-weight:bold;
+    padding-bottom: 12px;
+    padding: 14px;
+    height: 12px;
+    line-height: 12px;
+    margin-bottom: 3%;
+}
+.personCenter .blo.blo1{
+    height: auto!important;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.bgconter .cont{
+    z-index: 2;
+    position: relative;
+    width: 80%;
+
+    margin:5% auto;
+}
+.bgconter .logo{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+
+}
+.personCenter .cont .potrait{
+    width: 70px;
+    display: block;
+    margin:12px 15px;
+    height: 70px;
+    border-radius: 50%;
+}
+.personCenter .cont .msg{
+    margin-top: 12px;
+}
+.personCenter .cont .msg li{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.personCenter .cont .msg li:nth-child(1) span{
+    background: url(../image/section-17-sec2.png);
+    display: inline-block;
+    background-size: cover;
+    margin-right: 9px;
+    width: 14px;
+    margin-left: 3px;
+    height: 20px;
+}
+
+.personCenter .cont .msg li:nth-child(1) {
+   font-size: 22px;
+    font-weight: bold;
+}
+.personCenter .cont .msg li:nth-child(2) span{
+  background: url(../image/section-17-sec3.png);
+display: inline-block;
+background-size: cover;
+margin-right: 6px;
+width: 18px;
+height: 18px;
+}
+
+.personCenter .cont .msg li:nth-child(3) span{
+  background: url(../image/section-17-sec4.png);
+display: inline-block;
+background-size: cover;
+margin-right: 6px;
+width: 18px;
+height: 18px;
+}
+.personCenter .blo4 span.fr,.personCenter .blo5 span.fr{
+    display: inline-block;
+    background:url(../image/section-17-sec5.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.returnIndex{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.myPrize .cont{
+    width: 88%;
+    color: #fff;
+    position: absolute;
+    left: 6%;
+    top: 39%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding:0 10px 20px 10px;
+    background: rgba(255, 255, 255, 0.13);
+
+}
+.myPrize .cont .tit{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4e6cc3;
+}
+.myPrize .cont .shitijiang{
+    width: 100%;
+}
+.myPrize .cont .shitijiang img{
+    width: 100%;
+    display: none;
+}
+.myPrize .cont .shitijiang img.rew{
+    display: block;
+}
+.myPrize .youhuijuan{
+    width: 100%;
+}
+.myPrize .youhuijuan .t{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.myPrize .youhuijuan .input{
+    background: #fff;
+    color: #111;
+    padding:5px;
+    margin-top: 5px;
+    width: 75%;
+    font-weight: bold;
+}
+.myPrize .shuoming{
+   margin-top: 15px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+/*zohan*/
+
+.page9 {
+  display: block;
+  z-index: 999;
+}
+
+#confirmWindow {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0; 
+}
+
+#confirmWindow .s-logo,
+#confirmWindow .logo,
+#confirmWindow .sWindow,
+#confirmWindow .text1,
+#confirmWindow .inputName,
+#confirmWindow .inputTel,
+#confirmWindow .inputTime,
+#confirmWindow .text2,
+#confirmWindow .ck,
+#confirmWindow .erweima,
+#confirmWindow .text3,
+#confirmWindow .s9Btn  {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+}
+#confirmWindow .s-logo {
+  top: 2.6%;
+}
+#confirmWindow .sWindow {
+  top: 13%;
+}
+#confirmWindow .text1 {
+  z-index: 2;
+  top: 16%;
+  color: #5076d3;
+  text-align: center;
+  line-height: 130%;
+}
+#confirmWindow .inputName,
+#confirmWindow .inputTel,
+#confirmWindow .inputTime {
+  top: 25%;
+  z-index: 2;
+  text-align: center;
+}
+#confirmWindow input[type=text],
+#confirmWindow input[type=time] {
+  width: 44%;
+  border: none;
+  border-radius: 4px;
+  height: 24px;
+  padding: 0 5px;
+}
+#confirmWindow .c {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 8px;
+}
+#confirmWindow .inputTel {
+  top: 31%;
+}
+#confirmWindow .inputTime {
+  top: 36.5%;
+}
+#confirmWindow .text2 {
+  top: 44%;
+}
+#confirmWindow .ck {
+  width: 20px;
+  height: 20px;
+  top: 45%;
+  left: 15%;
+  z-index: 2;
+}
+#confirmWindow .erweima {
+  top: 60%;
+}
+#confirmWindow .text3 {
+  top: 80%;
+}
+#confirmWindow .s9Btn {
+  top: 90%;
+}
+
+
+.baozhengshu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.baozhengshu .s-logo,
+.baozhengshu .logo,
+.baozhengshu .book,
+.baozhengshu .nameTile,
+.baozhengshu .userName,
+.baozhengshu .finger,
+.baozhengshu .light,
+.baozhengshu .myAward,
+.baozhengshu .awardList,
+.baozhengshu .signet,
+.baozhengshu .share_btn,
+.baozhengshu .go_index_btn, 
+.baozhengshu .text4,
+.baozhengshu .finger_bg,
+.baozhengshu .text_title,
+.baozhengshu .text_type,
+.baozhengshu .notes,
+.baozhengshu .text6 {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  z-index: 1; 
+}
+.baozhengshu .s-logo {
+  top: 2.6%;
+}
+.baozhengshu .sWindow {
+  top: 13%;
+}
+.baozhengshu .book {
+  top: 13%; 
+}
+.baozhengshu .nameTile {
+  color: #000000;
+  font-size: 20px;
+  top: 24%;
+  left: 17%;
+}
+.baozhengshu .userName {
+  color: #000000;
+  font-size: 16px;
+  top: 24.5%;
+  left: 31%;
+}
+.baozhengshu .finger {
+  top: 70%;
+  left: 40%;
+  width: 68px;
+  height: 60px;
+  background: url("../image/finger_bg.png") no-repeat;
+  background-size: 68px;
+  padding: 4px 0px;
+}
+.baozhengshu .fingerBg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.baozhengshu .notes{
+  color: #000000;
+  font-size: 16px;
+  top: 30.5%;
+  left: 25%;
+}
+.baozhengshu .light {
+  width: 60px;
+  height: 5px;
+  background-color: #fff;
+  opacity: .7;
+  left: 4px;
+  top: 4px;
+  z-index: 2;
+  -webkit-animation: topbottom 3s linear infinite;
+}
+.baozhengshu .myAward {
+  top: 37%;
+  left: 17%;
+  color: #000;
+}
+
+.baozhengshu .share_btn {
+  top: 82%;
+  left: 5.1%;
+  width: 120px;
+}
+
+.baozhengshu .go_index_btn {
+  left: 52%;
+  top: 82%;
+  width: 119px;
+}
+
+.baozhengshu .awardList {
+  width: 66%;
+  height: 15%;
+  left: 18%;
+  top: 41%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+}
+
+.baozhengshu .awardList div {
+  width: 25%;
+}
+
+.baozhengshu .signet {
+  top: 13%;
+}
+
+.baozhengshu .text4 {
+  top: 90%;
+}
+
+.baozhengshu .finger_bg {
+  top: 62%;
+  z-index: 2;
+}
+
+.baozhengshu .text_title {
+  top: 57%;
+}
+
+.baozhengshu .text_type {
+  top: 62%;
+}
+
+.baozhengshu .text6 {
+  top: 66%;
+}
+
+.baozhengshu .logo {
+  top: 0px;
+}
+
+.no_rewared{
+  min-height: 200px;
+  margin-top: 35px;
+  line-height: 1.6;
+}
+@-webkit-keyframes topbottom {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 100%;
+  }
+}
+
+
+/*iphone4*/
+@media (min-width: 320px) and (max-height:480px) {
+    #wenjuanbox{
+       margin: 5px auto;
+    }
+    #wenjuan .logo{
+        width: 70%;
+    }
+    .personCenter .cont{
+      width: 90%;
+      zoom: 0.7;
+    }
+    .personCenter .returnIndex{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .actIndexNav .cot{
+     width: 70%;
+    }
+    .actIndexNav .cot.inUserblock{
+    width: 90%;
+    }
+    .myPrize .cont{
+        zoom: 0.7;
+    }
+}
+
+/*iphone5*/
+@media (width: 320px) and (min-height:500px) {
+
+    .personCenter .cont{
+      width: 90%;
+
+    }
+    .personCenter .returnIndex{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .actIndexNav .cot{
+     width: 90%;
+    }
+    .actIndexNav .cot.inUserblock{
+    width: 90%;
+    }
+}
+
+/*iphone6*/
+@media (min-width: 321px) and (max-width:375px) {
+    #wenjuanbox{
+        width: 350px;
+        height: 284px;
+    }
+
+    #wenjuanbox .nav {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+    }
+    #wenjuanbox .handon{
+      width: 99px;
+      z-index: 5;
+      left: 50%;
+      bottom: -45px;
+      position: absolute;
+      margin-left: -50px;
+    }
+
+}
+/*iphone6 plus*/
+@media (min-width: 376px) {
+    #wenjuanbox{
+        width: 400px;
+        height: 320px;
+    }
+    #wenjuanbox .page  ul li{
+        margin: 10px 0;
+    }
+
+    #wenjuanbox .nav {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+    }
+    #wenjuanbox .handon{
+      width: 99px;
+      z-index: 5;
+      left: 50%;
+      bottom: -45px;
+      position: absolute;
+      margin-left: -50px;
+    }    
+}

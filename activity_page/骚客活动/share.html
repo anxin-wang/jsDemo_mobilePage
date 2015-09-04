@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="要运动，用咕咚">
+    <meta name="keywords" content="运动，咕咚">
+    <meta name="author" content="mpr0xy">
+    <meta name="format-detection" content="telephone=no">
+    <title>咕咚分享</title>
+    <link rel="shortcut icon" href="http://static.codoon.com/image/universal/codoon.ico" />
+    <link href="./css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css?v=4.1">
+  </head>
+  <body>
+
+  <section id="baozhengshu">
+    <div class="page page10">
+      <div class="bg">
+        <img src="image/section-4-bg.png" alt="" />
+      </div>
+      <img src="./image/section-1-sec1.png" class="logo" />
+      <img src="./image/section-9-logo.png" class="s-logo" />
+      <img src="./image/section-10-bg.png" class="book" />
+      <span class="nameTile">骚客</span>
+      <span class="userName">刘德华：</span>
+      <span class="myAward">我的心愿单</span>
+      <div class="awardList">
+        <div>
+          <img src="./image/1.png" width="45" />
+        </div>
+        <div>
+          <img src="./image/2.png" width="40" />
+        </div>
+        <div>
+          <img src="./image/3.png" width="47" />
+        </div>
+        <div>
+          <img src="./image/4.png" width="50" />
+        </div>
+      </div>
+      <img src="./image/signet.png" class="signet" />
+      <img src="./image/text_title.png" class="text_title" />
+      <img src="./image/50.png" class="text_type" />
+      <img src="./image/text6.png" class="text6" />
+    </div>
+  </section>
+
+  <!-- js lib start -->
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/zepto.fx.js"></script>
+  <script src="./js/event.js"></script>
+
+  
+  <!--业务代码-->
+  <script>
+  //背景布局
+  function BgLayout(){
+      var self = this;
+      this.bgLayout = function(){
+      var wx = $(window).width();
+      var wy = $(window).height();
+      var x = 416;
+      var y = 738;
+      var zoom = 0;
+      if(wx/wy > x/y){
+        zoom = wx/x;
+        console.log('x方向100%,zoom:'+zoom);
+      }else{
+        console.log('y方向100%,zoom:'+zoom)
+        zoom = wy/y;
+      }
+      $('.bg').css({
+        '-webkit-transform':'scale('+(zoom+0.05)+')',
+        'position':'absolute',
+        'left':(wx-x)/2+'px',
+        'top':(wy-y)/2+'px',
+      })
+    }
+
+    $(window).resize(function(){
+      self.bgLayout();
+    })
+    self.bgLayout();
+  }
+
+  var bglayout = new BgLayout();
+  </script>
+
+
+
+  <!-- 百度统计代码 -->
+  <script> 
+  // var _hmt = _hmt || [];
+
+  // (function() {
+  //   var hm = document.createElement("script");
+  //   hm.src = "//hm.baidu.com/hm.js?f340efa1307a47e7d89c5d277cc552cd";
+  //   var s = document.getElementsByTagName("script")[0];
+  //   s.parentNode.insertBefore(hm, s);
+  // })();
+
+  </script>
+  </body>
+</html>
