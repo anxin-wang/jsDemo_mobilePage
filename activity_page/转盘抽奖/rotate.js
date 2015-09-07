@@ -1,5 +1,5 @@
 $(function(){
-    var $rotaryArrow = $('#rotaryArrow');
+    var $rotaryArrow = $('#arrow');
     var $result = $('#result');
     var $resultTxt = $('#resultTxt');
     var $resultBtn = $('#result');
@@ -10,37 +10,37 @@ $(function(){
         data=2;
         switch(data){
             case 1: 
-                rotateFunc(1,87,'¹§Ï²Äú»ñµÃÁË <em>1</em> Ôª´ú½ðÈ¯');
+                rotateFunc(1,87,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>1</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             case 2: 
-                rotateFunc(2,43,'¹§Ï²Äú»ñµÃÁË <em>5</em> Ôª´ú½ðÈ¯');
+                rotateFunc(2,43,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>5</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             case 3: 
-                rotateFunc(3,134,'¹§Ï²Äú»ñµÃÁË <em>10</em> Ôª´ú½ðÈ¯');
+                rotateFunc(3,134,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>10</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             case 4: 
-                rotateFunc(4,177,'ºÜÒÅº¶£¬Õâ´ÎÄúÎ´³éÖÐ½±£¬¼ÌÐø¼ÓÓÍ°É');
+                rotateFunc(4,177,'ï¿½ï¿½ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½');
                 break;
             case 5: 
-                rotateFunc(5,223,'¹§Ï²Äú»ñµÃÁË <em>20</em> Ôª´ú½ðÈ¯');
+                rotateFunc(5,223,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>20</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             case 6: 
-                rotateFunc(6,268,'¹§Ï²Äú»ñµÃÁË <em>50</em> Ôª´ú½ðÈ¯');
+                rotateFunc(6,268,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>50</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             case 7: 
-                rotateFunc(7,316,'¹§Ï²Äú»ñµÃÁË <em>30</em> Ôª´ú½ðÈ¯');
+                rotateFunc(7,316,'ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <em>30</em> Ôªï¿½ï¿½ï¿½È¯');
                 break;
             default:
-                rotateFunc(0,0,'ºÜÒÅº¶£¬Õâ´ÎÄúÎ´³éÖÐ½±£¬¼ÌÐø¼ÓÓÍ°É');
+                rotateFunc(0,0,'ï¿½ï¿½ï¿½Åºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½');
         }
     });
  
-    var rotateFunc = function(awards,angle,text){  //awards:½±Ïî£¬angle:½±Ïî¶ÔÓ¦µÄ½Ç¶È
+    var rotateFunc = function(awards,angle,text){  //awards:ï¿½ï¿½ï¿½î£¬angle:ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ä½Ç¶ï¿½
         $rotaryArrow.stopRotate();
         $rotaryArrow.rotate({
             angle: 0,
             duration: 5000,
-            animateTo: angle + 1440,  //angleÊÇÍ¼Æ¬ÉÏ¸÷½±Ïî¶ÔÓ¦µÄ½Ç¶È£¬1440ÊÇÈÃÖ¸Õë¹Ì¶¨Ðý×ª4È¦
+            animateTo: angle + 1440,  //angleï¿½ï¿½Í¼Æ¬ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½Ä½Ç¶È£ï¿½1440ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ì¶ï¿½ï¿½ï¿½×ª4È¦
             callback: function(){
                 $resultTxt.html(text);
                 $result.show();
