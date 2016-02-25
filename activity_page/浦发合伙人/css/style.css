@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    font-size:100%;
+    font-family: "Microsoft YaHei", "SimHei", sans-serif;
+}
+.back {
+    position: relative;
+    height: auto;
+    z-index: 1;
+    top: 0;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.position_bm {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
+.div-content {
+    margin: 0 5%;
+}
+.index_register_btn{
+    top:55%;
+}
+.word_01{
+    float:left;
+    width:60%;
+}
+#register_btn{
+    font-size:1.3rem;
+    display: block;
+    color:#369FE5;
+    line-height: 1.5rem;
+}
+.div-form{
+    top:65%;
+    margin-top:2%;
+    font-size:1.1rem;
+}
+.form-item{
+    padding:2% 5%;
+    border:1px solid #BFBDBD;
+    margin-bottom:10px;
+}
+.form-item input{
+    line-height: 2rem;
+    border:none;
+}
+.form-item input:focus{
+    outline:none;
+}
+.btn{
+    display: inline-block;
+}
+.denglu{
+margin-top:10px;
+}
+#phoneValidateCode{
+    width:25%;
+}
+#validateCodeBtn{
+    width:50%;
+    border:none;
+    vertical-align: -35%;
+}
+.likeshengqing{
+    top:36%;
+}
+.likeshengqing .div-content{
+    margin:0 20%;
+}
+.qrcode{
+    top:48%;
+}
+.qrcode .div-content{
+    margin:0 35%;
+}
+.zhanwei-success-2{
+    top:60%;
+}
+.register.div-form{
+    top:14%;
+}
+.register.div-form .form-item{
+    background: #fff;
+}
+.checkbox-container,.radio-container{
+    font-size:0.8rem;
+    text-align: center;
+    margin-bottom:10px;
+}
+.checkbox-blue {
+    background: url(../image/checkbox.png) -32px 0px;
+    background-size: 53px auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: -2px;
+
+}
+.checkbox-blue.checked{
+    background-position:top left;
+}
+.checkbox-container{
+    color:red;
+
+}
+.checkbox-container a{
+    color:#369FE5;
+}
+.zhuce{
+    margin-top:30px;
+}
+.zhuce .div-content{
+    margin:0 12%;
+}
+.back-btn{
+    top:2%;
+}
+.back-btn a{
+    color:#369FE5;
+    font-weight: bolder;
+}
+.zhanwei-success{
+    top:38%;
+}
+.yaoqinghaoyou{
+    top:76%;
+}
+.yaoqinghaoyou .div-content{
+    margin:0;
+    position: relative;
+}
+.sms{
+    display:inline-block;
+    width:50px;
+    height:70px;
+    position:absolute;
+    bottom:13%;
+    left:22%;
+}
+.qrcode-yaoqinghaoyou{
+    display:inline-block;
+    width:50px;
+    height:70px;
+    position:absolute;
+    bottom:13%;
+    right:23%;
+}
+.tuijiangonglue{
+    bottom:1%;
+}
+.tuijian{
+    display: inline-block;
+    width:40%;
+    height: 84%;
+    position: absolute;
+    bottom: 13%;
+    left: 10%;
+}
+.yaoqing{
+    display:inline-block;
+    width:40%;
+    height: 84%;
+    position:absolute;
+    bottom:13%;
+    right:8%;
+}
+.shuakajin{
+    top:10.5%;
+}
+.shuakajin .div-content{
+    text-align: center;
+    font-size:4rem;
+    color:#fff;
+}
+.renshu{
+    top:30.5%;
+}
+.renshu .div-content div{
+    width:50%;
+    float:left;
+    text-align: center;
+    color:#fff;
+    font-size:2rem;
+}
+.top-btn{
+    top:1%;
+}
+.top-btn a{
+    color:#fff;
+    font-size:0.8rem;
+    font-weight: bolder;
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 120px;
+    background: #e5e5e5;
+    border-radius: 5%;
+    z-index: 99;
+    margin-left: -150px;
+    margin-top: -80px;
+    padding: 30px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.hide{
+    display:none;
+}
+.modal-btn a{
+    display:block;
+    margin: 0 10%;
+}
+.modal .word{
+    margin-bottom:35px;
+}
+.overlay,.overlay_2{
+    z-index:99;
+    position:absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.overlay_2{
+    width:300px;
+    top:0;
+    left:50%;
+    margin-left:-150px;
+    background:#E1E7E9;
+}
+.overlay .close-modal{
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    top: 4px;
+    left: 3px;
+}

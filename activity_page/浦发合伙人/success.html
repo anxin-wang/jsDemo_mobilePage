@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" >
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+<div class="back">
+    <img class="img-responsive" src="image/success_bg.png" />
+    <div class="back-btn position_bm">
+        <div class="div-content">
+            <a href="#">&lt;返回</a>
+        </div>
+    </div>
+    <div class="zhanwei-success position_bm">
+        <div class="div-content">
+            <div style="background: #fff;height:160px;border:1px solid #333;"></div>
+        </div>
+    </div>
+    <div class="yaoqinghaoyou position_bm">
+        <div class="div-content">
+            <img src="image/yaoqinghaoyou.png" class="img-responsive">
+
+                <a href="#" class="sms"></a>
+                <a href="#" class="qrcode-yaoqinghaoyou"></a>
+
+
+        </div>
+    </div>
+    <a href="#" class="test">打开对话框</a>
+    <div class="modal hide">
+        <div class="word">您尚未持有浦发信用卡</div>
+        <div class="modal-btn"><a href="#" class="close-modal"><img src="image/lijibanka-btn.png"  class="img-responsive"> </a></div>
+
+    </div>
+    <script src="javascript/jquery.js"></script>
+    <script>
+        $(function(){
+            $(".test").click(function(){
+                $(".modal").show();
+            })
+            $(".close-modal").click(function(){
+                $(".modal").hide();
+            })
+        })
+
+    </script>
+</div>
+</body>
+</html>
